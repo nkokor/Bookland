@@ -3,9 +3,11 @@
 
 body {
   margin: 0;
+  padding: 0px;
   font-family: 'Cormorant Garamond';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(251, 246, 242);
 }
 
 code {
