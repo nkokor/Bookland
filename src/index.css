@@ -7,10 +7,14 @@ body {
   font-family: 'Cormorant Garamond';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(251, 246, 242);
+  background-color: rgb(246, 239, 233);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#content {
+  padding-top: 200px;
 }
