@@ -9,22 +9,29 @@
 
 #home-header {
   font-size: 56px;
-  font-weight: 600;
+  font-weight: 700;
   padding-left: 40px;
   padding-right: 40px;
+  margin-top: 20px;
   color: rgb(88, 22, 22);
 }
 
 #home-text {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 25px;
+  font-size: 23px;
 }
 
 #shop-button {
+  margin: auto;
   height: 40px;
-  width: 100px;
-  margin-top: 60px;
-  border-style: groove;
+  width: 110px;
+  margin-top: 40px;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(65, 20, 20);
+  border-radius: 2px;
   font-size: large;
+  cursor: pointer;
+  padding-top: 4px;
 }

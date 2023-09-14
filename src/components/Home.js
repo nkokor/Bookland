@@ -3,9 +3,10 @@ import '../style/Home.css';
 function Home() {
   return (
     <div id='home'>
-      <p id='home-header'>LET'S EXPLORE THE MAGICAL WORLD OF LITERATURE</p>
+      <img id='banner' src='images/home-banner.png'></img>
+      <p id='home-header'>Let's explore the magical world of literature</p>
       <p id='home-text'>Start now by visiting our online shop or meet us today at your local Bookland!</p>
-      <button id='shop-button'>Shop now</button>
+      <p id='shop-button'>Shop now</p>
     </div>
   );
 }
