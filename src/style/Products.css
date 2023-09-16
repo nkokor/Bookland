@@ -1,0 +1,34 @@
+#products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+  justify-content: center;
+  grid-gap: 2rem;
+  column-gap: 0px;
+  margin-top: 10px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 60px;
+}
+
+#products p {
+  margin: 0px;
+}
+
+#products .product-card {
+  margin: 10px;
+}
+
+.product-card .product-image {
+  height: 220px;
+}
+
+.product-card .product-title {
+  font-weight: 800;
+  padding-top: 6px;
+}
+
+.product-card .rating-star {
+  height: 20px;
+  margin: 1px;
+}

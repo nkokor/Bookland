@@ -9,9 +9,9 @@ function Menu() {
         <div></div>
       </div>
       <div id='menu-items-div' className='col-8'>
-        <p className='menu-item'>Home</p>
+        <p className='menu-item' href='#home'>Home</p>
         <p className='menu-item'>About</p>
-        <p className='menu-item'>Products</p>
+        <p className='menu-item' href='#products'>Products</p>
         <p className='menu-item'>Review</p>
         <p className='menu-item'>Contact</p>
       </div>
