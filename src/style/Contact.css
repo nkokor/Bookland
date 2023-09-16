@@ -1,0 +1,35 @@
+#message-form {
+  display: flex;
+  position: absolute;
+  right: 90px;
+  width: 480px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 2px;
+}
+
+#message-form input {
+  margin: 7px;
+  padding: 5px;
+  border: none;
+  background-color: rgb(245, 240, 235);
+  border-radius: 2px;
+}
+
+#message-input {
+  height: 250px;
+  text-align: top;
+}
+
+#submit-button {
+  margin: 7px;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgba(123, 32, 32, 0.818);
+  color: white;
+}
+
+
