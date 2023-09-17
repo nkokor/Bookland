@@ -1,26 +1,88 @@
+#contact {
+  padding-top: 60px;
+  height: 800px;
+}
+
+#contact-header {
+  font-size: 56px;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(88, 22, 22);
+}
+
+#contact-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(700px, max-content));
+  grid-gap: 3rem;
+  justify-content: center;
+}
+
+#contact-options div {
+  margin: auto;
+}
+
+#socials-div {
+  width: 350px;
+}
+
+#touch-p {
+  font-size: 27px;
+}
+
+.social-link {
+  background-color: rgba(245, 240, 235, 0.496);
+  border-radius: 50px;
+  margin-bottom: 7px;
+  padding: 5px;
+}
+
+#socials-div .social-link {
+  display: flex;
+  flex-direction: row;
+  margin: 7px;
+}
+
+.social-link img {
+  height: 33px;
+  margin-right: 10px;
+  opacity: 74%;
+  margin-left: 10px;
+}
+
+.social-link p {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+#touch-p {
+  padding: 0px;
+  margin: 0px;
+}
+
 #message-form {
   display: flex;
-  position: absolute;
-  right: 90px;
-  width: 480px;
-  padding: 20px;
-  background-color: rgb(255, 255, 255);
+  width: 430px;
   flex-direction: column;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  border-radius: 2px;
 }
 
 #message-form input {
-  margin: 7px;
-  padding: 5px;
+  margin: 5px;
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
   border: none;
-  background-color: rgb(245, 240, 235);
-  border-radius: 2px;
+  background-color: rgba(245, 240, 235, 0.496);
 }
 
 #message-input {
-  height: 250px;
+  height: 200px;
   text-align: top;
+  border-radius: 10px;
 }
 
 #submit-button {
@@ -30,6 +92,7 @@
   font-weight: 600;
   background-color: rgba(123, 32, 32, 0.818);
   color: white;
+  border-radius: 100px;
 }
 
 

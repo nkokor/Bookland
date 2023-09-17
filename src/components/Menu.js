@@ -9,11 +9,11 @@ function Menu() {
         <div></div>
       </div>
       <div id='menu-items-div' className='col-8'>
-        <p className='menu-item' href='#home'>Home</p>
-        <p className='menu-item'>About</p>
-        <p className='menu-item' href='#products'>Products</p>
-        <p className='menu-item'>Review</p>
-        <p className='menu-item'>Contact</p>
+        <a className='menu-item' href='#home'>Home</a>
+        <a className='menu-item'>About</a>
+        <a className='menu-item' href='#products'>Products</a>
+        <a className='menu-item'>Review</a>
+        <a className='menu-item' href='#contact'>Contact</a>
       </div>
       <div id='user-div' className='col-2'>
         <img className='icon-menu-item' src='images/icons8-heart-50.png'></img>

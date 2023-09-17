@@ -32,6 +32,8 @@
 }
 
 .menu-item {
+  text-decoration: none;
+  color: black;
   font-size: 21px;
   margin-left: 30px;
   margin-right: 30px;
