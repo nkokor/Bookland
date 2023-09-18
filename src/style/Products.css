@@ -16,7 +16,46 @@
 }
 
 #products .product-card {
-  margin: 10px;
+  height: 323px;
+  width: 240px;
+  justify-content: center;
+  margin-bottom: 17px;
+}
+
+.product-card .product-icon {
+  height: 59px;
+  padding: 10px;
+}
+
+#products .cart-div {
+  justify-content: center;
+  padding: 0px;
+  height: 220px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: transparent;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  position: relative;
+  top: -220px;
+  background-color: rgba(255, 255, 255, 0.386);
+  opacity: 0;
+}
+
+#products .cart-div:hover {
+  opacity: 1;
+}
+
+#products .product-info {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  position: relative;
+  top: -220px;
 }
 
 .product-card .product-image {
@@ -31,4 +70,61 @@
 .product-card .rating-star {
   height: 20px;
   margin: 1px;
+}
+
+.cart-button {
+  position: relative;
+  top: 170px;
+  display: flex;
+  flex-direction: row;
+  background-color:  rgba(88, 22, 22, 0.714);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  height: 50px;
+  width: 240px;
+  color: white;
+  cursor: pointer;
+}
+
+.cart-button p {
+  font-weight: bold;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-left: 45px;
+  padding-right: 27px;
+  font-size: 19px;
+}
+
+.cart-button p, .cart-button img {
+  opacity: 60%;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.cart-icon {
+  height: 37px;
+  margin-top: 7px;
+  padding: 2px;
+}
+
+.heart-icon {
+  height: 28px;
+  position: relative;
+  top: -54px;
+  right: -99px;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: rgb(88, 22, 22);
+}
+
+.cart-button:hover p, .cart-button:hover img {
+  opacity: 100%;
 }
