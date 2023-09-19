@@ -17,7 +17,7 @@ const reviews = [
     userImage: 'images/user-images/anne.jpg',
     userName: 'Anne Klein',
     userRole: 'Happy customer',
-    reviewComment: 'There is honestly not a single bad thing to say about Bookland! I live nearby so I find myself going there probably more than one should. The staff is super nice and always gives amazing recommendations if you are not sure what to get. Also, the reading nook they have in the store is a great space if you just want to disappear for a bit.',
+    reviewComment: 'There is honestly not a single bad thing to say about Bookland! I live nearby so I find myself going there probably more than one should. The staff is super nice and always gives amazing recommendations if you are not sure what to get.',
     rating: 5
   },
   {

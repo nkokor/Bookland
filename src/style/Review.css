@@ -1,15 +1,17 @@
 #reviews {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
   justify-content: center;
   grid-gap: 3rem;
-  column-gap: 50px;
-  padding: 70px;
+  column-gap: 80px;
+  padding: 100px;
 }
 
 .review-card {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   padding: 20px;
+  height: 350px;
+  width: 390px;
 }
 
 .review-user-div {
@@ -45,12 +47,13 @@
 
 .review-text {
   padding: 7px;
+  height: 190px;
   margin-top: 15px;
   text-align: justify;
 }
 
 .rating-star-div {
-  bottom: 0px;
+  padding-left: 190px;
 }
 
 .review-rating-star {
