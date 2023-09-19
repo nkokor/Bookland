@@ -16,11 +16,11 @@ function Reviews() {
             </div>
             <p className="review-text">{review.reviewComment}</p>
             <div className="rating-star-div">
-              <img className="review-rating-star" src='images/icons8-yellow-star-50.png'></img>
-              <img className="review-rating-star" src='images/icons8-yellow-star-50.png'></img>
-              <img className="review-rating-star" src='images/icons8-yellow-star-50.png'></img>
-              <img className="review-rating-star" src='images/icons8-yellow-star-outline-50.png'></img>
-              <img className="review-rating-star" src='images/icons8-yellow-star-outline-50.png'></img>
+              <img className="review-rating-star" src='images/icons/icons8-yellow-star-50.png'></img>
+              <img className="review-rating-star" src='images/icons/icons8-yellow-star-50.png'></img>
+              <img className="review-rating-star" src='images/icons/icons8-yellow-star-50.png'></img>
+              <img className="review-rating-star" src='images/icons/icons8-yellow-star-outline-50.png'></img>
+              <img className="review-rating-star" src='images/icons/icons8-yellow-star-outline-50.png'></img>
             </div>
          </div>
       ))

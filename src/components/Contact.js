@@ -25,22 +25,22 @@ function Contact() {
           <hr></hr>
 
           <div className='social-link'>
-            <img src='images/icons8-instagram-50.png'></img>
+            <img src='images/icons/icons8-instagram-50.png'></img>
             <p>@booklandus</p>
           </div>
 
           <div className='social-link'>
-            <img src='images/icons8-email-50.png'></img>
+            <img src='images/icons/icons8-email-50.png'></img>
             <p>bookland@gmail.com</p>
           </div>
 
           <div className='social-link'>
-            <img src='images/icons8-phone-50.png'></img>
+            <img src='images/icons/icons8-phone-50.png'></img>
             <p>+978 574 55 43</p>
           </div>
 
           <div className='social-link'>
-            <img src='images/icons8-location-50.png'></img>
+            <img src='images/icons/icons8-location-50.png'></img>
             <p>Cornelia Street 17, New York</p>
           </div>
           
