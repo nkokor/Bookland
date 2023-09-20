@@ -14,8 +14,6 @@
 }
 
 #footer-contact {
-  display: grid;
-  grid-template-columns: 1fr;
   padding-top: 40px;
 }
 
@@ -31,38 +29,25 @@
 .footer-contact-link img {
   width: 43px;
   height: 43px;
-  opacity: 80%;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  transition: all 0.6s ease;
 }
 
 .footer-contact-link p {
   text-align: left;
   padding-left: 20px;
   padding-top: 9px;
-  opacity: 80%;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
-
-.footer-contact-link:hover img, .footer-contact-link:hover p {
-  opacity: 100%;
 }
 
 #footer-info p {
   color: rgb(255, 255, 255);
-  opacity: 80%;
 }
 
 #footer-title {
   font-weight: bold;
   font-size: 30px;
+}
+
+#footer-company-info p {
+  opacity: 86%;
 }
 
 #footer-socials {
@@ -74,20 +59,23 @@
   width: 40px;
   margin: 10px;
   cursor: pointer;
-  opacity: 80%;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  transition: all 0.6s ease;
-}
-
-.footer-social-link:hover {
-  opacity: 100%;
 }
 
 #copyright {
   color: rgba(255, 255, 255, 0.718);
   padding-top: 35px;
   padding-bottom: 10px;
+}
+
+.footer-contact-link img, .footer-contact-link p, .footer-social-link {
+  opacity: 80%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer-contact-link:hover img, .footer-contact-link:hover p, .footer-social-link:hover {
+  opacity: 100%;
 }
