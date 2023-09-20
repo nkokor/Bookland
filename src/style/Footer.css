@@ -1,13 +1,13 @@
 #footer {
   margin-top: 100px;
-  background-color: rgb(35, 35, 35);
+  background-color: rgb(42, 40, 40);
   padding-top: 40px;
 }
 
 #footer-info {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
-  grid-gap: 14rem;
+  grid-gap: 5rem;
   justify-content: center;
   padding-left: 200px;
   padding-right: 170px;
@@ -23,11 +23,9 @@
 
 .footer-contact-link {
   display: flex;
-  margin: 0px;
 }
 
 .footer-contact-link img {
-  width: 43px;
   height: 43px;
 }
 
@@ -56,7 +54,6 @@
 
 .footer-social-link {
   height: 40px;
-  width: 40px;
   margin: 10px;
   cursor: pointer;
 }
@@ -65,6 +62,7 @@
   color: rgba(255, 255, 255, 0.718);
   padding-top: 35px;
   padding-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .footer-contact-link img, .footer-contact-link p, .footer-social-link {
