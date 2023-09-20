@@ -5,6 +5,7 @@ import About from './components/About';
 import Products from './components/Products';
 import Review from './components/Review';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Review />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }

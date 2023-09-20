@@ -41,7 +41,7 @@ function Contact() {
 
           <div className='social-link'>
             <img src='images/icons/icons8-location-50.png'></img>
-            <p>Cornelia Street 17, New York</p>
+            <p>24 Cornelia Street, New York</p>
           </div>
           
         </div>
