@@ -9,7 +9,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
   grid-gap: 5rem;
   justify-content: center;
-  padding-left: 200px;
+  padding-left: 170px;
   padding-right: 170px;
 }
 

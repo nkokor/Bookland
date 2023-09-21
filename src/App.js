@@ -6,12 +6,14 @@ import Products from './components/Products';
 import Review from './components/Review';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import SideMenu from './components/SideMenu';
 
 
 function App() {
   return (
     <div className="App">
       <Menu />
+      <SideMenu />
       <div id='content'>
         <Home />
         <About />
