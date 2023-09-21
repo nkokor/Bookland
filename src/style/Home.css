@@ -3,7 +3,7 @@
   padding-top: 80px;
 }
 
-#banner {
+#banner, #vertical-banner {
   width: 100%;
   opacity: 96%;
 }
@@ -35,4 +35,26 @@
   font-size: large;
   cursor: pointer;
   padding-top: 4px;
+}
+
+@media screen and (max-width: 850px) {
+  #banner {
+    transition: 0s;
+    visibility: hidden;
+    height: 0px;
+  }
+  #home {
+    padding-top: 55px;
+  }
+  #home-header {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  #vertical-banner {
+    height: 0px;
+    transition: 0s;
+    visibility: hidden;
+  }
 }
