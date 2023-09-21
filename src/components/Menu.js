@@ -2,6 +2,15 @@ import '../style/Menu.css';
 
 function Menu() {
 
+  function handleSideMenuVisibility() {
+    let sideMenu = document.getElementById("side-menu")
+    if(sideMenu.className === "side-menu-closed") {
+      sideMenu.className = "side-menu-opened"
+    } else {
+      sideMenu.className = "side-menu-closed"
+    }
+  }
+
   return (
     <div id='menu-div' className='row'>
       <div id='logo-div' className='col-2'>
@@ -21,7 +30,7 @@ function Menu() {
         <img className='icon-menu-item' src='images/icons/icons8-account-48.png'></img>
       </div>
       <div className='col-8'>
-        <img id='hamburger-menu-icon' src='images/icons/icons8-hamburger-menu-50.png'></img>
+        <img id='hamburger-menu-icon' src='images/icons/icons8-hamburger-menu-50.png' onClick={() => { handleSideMenuVisibility() }}></img>
       </div>
     </div>
   );

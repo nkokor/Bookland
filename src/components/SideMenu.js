@@ -3,7 +3,7 @@ import '../style/SideMenu.css';
 
 function SideMenu() {
   return (
-    <div id="side-menu">
+    <div id="side-menu" className='side-menu-closed'>
       <div id='side-menu-items-div' className='col-8'>
           <a className='side-menu-item' href='#home'>Home</a>
           <a className='side-menu-item'>About</a>
