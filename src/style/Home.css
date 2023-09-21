@@ -11,7 +11,7 @@
 #home-header {
   font-size: 56px;
   font-weight: 700;
-  padding-left: 40px;
+  padding-left: 30px;
   padding-right: 40px;
   margin-top: 20px;
   color: rgb(88, 22, 22);
@@ -21,20 +21,50 @@
   padding-left: 20px;
   padding-right: 20px;
   font-size: 23px;
+  margin-bottom: 40px;
 }
 
-#shop-button {
+#shop-link {
+  text-decoration: none;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.868);
+  background-color: rgb(88, 22, 22);
+  width: 180px;
   margin: auto;
-  height: 40px;
-  width: 110px;
-  margin-top: 40px;
-  border: 2px;
-  border-style: solid;
-  border-color: rgb(65, 20, 20);
-  border-radius: 2px;
-  font-size: large;
+  border-radius: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 26px;
   cursor: pointer;
-  padding-top: 4px;
+}
+
+#shop-link, #shop-link img {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#shop-link img {
+  height: 25px;
+  margin-left: 10px;
+  padding-bottom: 2px;
+}
+
+#shop-link img {
+  opacity: 80%;
+}
+
+#shop-link:hover {
+  color: white;
+} 
+
+#shop-link:hover img {
+  opacity: 100%;
 }
 
 @media screen and (max-width: 850px) {

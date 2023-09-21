@@ -87,11 +87,23 @@
 #submit-button {
   margin: 7px;
   padding: 8px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  background-color: rgba(123, 32, 32, 0.818);
-  color: white;
+  background-color: rgb(88, 22, 22);
+  color: rgba(255, 255, 255, 0.868);
   border-radius: 100px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
+
+#submit-button:hover {
+  color: white;
+}
+
+
 
 
