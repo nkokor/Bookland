@@ -3,29 +3,35 @@ import '../style/Products.css';
 
 function Products() {
   const renderProducts = (
-    <div>
+    <div id='shop'>
       <div id='products-header'>
 
-        <p>Category</p>
-        <select name="Select category" id="category">
-          <option value="romance">Romance</option>
-          <option value="fiction">Fiction</option>
-          <option value="adventure">Adventure</option>
-          <option value="crime">Crime</option>
-          <option value="children">Children</option>
-        </select>
+        <div id='category-div'>
+          <p>Category:</p>
+          <select name="Select category" id="category">
+            <option value="romance">Romance</option>
+            <option value="fiction">Fiction</option>
+            <option value="adventure">Adventure</option>
+            <option value="crime">Crime</option>
+            <option value="children">Children</option>
+          </select>
+        </div>
 
-        <p>Sort</p>
-        <select name="Sort by" id="sorting">
-          <option value="price">Price</option>
-          <option value="rating">Rating</option>
-          <option value="author">Author</option>
-        </select>
+        <div id='sorting-div'>
+          <p>Sort:</p>
+          <select name="Sort by" id="sorting">
+            <option value="price">Price</option>
+            <option value="rating">Rating</option>
+            <option value="author">Author</option>
+          </select>
+        </div>
 
-        <select name="View" id="view">
-          <option>List view</option>
-          <option>Gallery view</option>
-        </select>
+        <div id='view-div'>
+          <select name="View" id="view">
+            <option>List view</option>
+            <option>Grid view</option>
+          </select>
+        </div>
 
       </div>
       <div id='products'>
