@@ -1,6 +1,7 @@
 #home {
   background-color: transparent;
   padding-top: 80px;
+  height: 100vh;
 }
 
 #banner, #vertical-banner {
