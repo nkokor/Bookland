@@ -1,5 +1,5 @@
 #contact {
-  padding-top: 60px;
+  padding-top: 110px;
 }
 
 #contact-header {
@@ -102,6 +102,10 @@
 
 #submit-button:hover {
   color: white;
+}
+
+input:focus {
+  outline: none;
 }
 
 

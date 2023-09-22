@@ -3,8 +3,33 @@ import '../style/Products.css';
 
 function Products() {
   const renderProducts = (
-    <div id='products'>
-    {
+    <div>
+      <div id='products-header'>
+
+        <p>Category</p>
+        <select name="Select category" id="category">
+          <option value="romance">Romance</option>
+          <option value="fiction">Fiction</option>
+          <option value="adventure">Adventure</option>
+          <option value="crime">Crime</option>
+          <option value="children">Children</option>
+        </select>
+
+        <p>Sort</p>
+        <select name="Sort by" id="sorting">
+          <option value="price">Price</option>
+          <option value="rating">Rating</option>
+          <option value="author">Author</option>
+        </select>
+
+        <select name="View" id="view">
+          <option>List view</option>
+          <option>Gallery view</option>
+        </select>
+
+      </div>
+      <div id='products'>
+      {
       products.map((product) => (
           <div className="product-card">
           <img className="product-image" src={product.image}></img>
@@ -26,11 +51,12 @@ function Products() {
               <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
               <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
             </div>
+            </div>
           </div>
-        </div>
-      ))
-    }
-  </div>
+         ))
+        }
+      </div>
+    </div>
   )
   return renderProducts
 }

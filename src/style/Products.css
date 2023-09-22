@@ -1,10 +1,20 @@
+#products-header {
+  display: flex;
+  flex-direction: row;
+}
+
+#products-header img {
+  height: 20px;
+  width: 20px;
+}
+
 #products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
   justify-content: center;
   grid-gap: 2rem;
   column-gap: 0px;
-  margin-top: 120px;
+  margin-top: 20px;
   padding-top: 50px;
   padding-left: 10px;
   padding-right: 10px;
