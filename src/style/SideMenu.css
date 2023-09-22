@@ -1,14 +1,14 @@
 #side-menu {
   position: fixed;
   z-index: 100;
-  top: 0px;
+  top: 80px;
   display: flex;
   flex-direction: column;
   width: 190px;
   height: 100vh;
   padding-top: 90px;
   padding-left: 0px;
-  background-color: white;
+  background-color: rgb(42, 40, 40);
   align-items: start;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   transition: 0.9s;
@@ -22,35 +22,18 @@
   right: -200px;
 }
 
-#side-menu-items-div, #side-menu-user-div {
+#side-menu-items-div {
   display: flex;
   flex-direction: column;
 }
 
 .side-menu-item {
   text-decoration: none;
-  color: black;
+  color: white;
   margin-top: 13px;
   font-size: 19px;
   text-align: left;
   padding-left: 25px;
-}
-
-hr {
-  color: black;
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.icon-side-menu-item {
-  height: 29px;
-  width: 29px;
-  opacity: 70%;
-  margin: 7px;
-  margin-left: 20px;
-  cursor: pointer;
 }
 
 @media screen and (min-width: 1190px) {

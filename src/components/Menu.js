@@ -30,7 +30,7 @@ function Menu() {
      
       <div id='menu-div'>
 
-        <div id='menu-items-div' className='col-8'>
+        <div id='menu-items-div'>
           <a className='menu-item' href='#home'>Home</a>
           <a className='menu-item'>About</a>
           <a className='menu-item' href='#products'>Products</a>
@@ -43,7 +43,7 @@ function Menu() {
           <input type='text' placeholder='Search website...' id='search-input'></input>
         </div>
 
-        <div className='col-8'>
+        <div>
           <img id='hamburger-menu-icon' src='images/icons/icons8-hamburger-menu-50.png' onClick={() => { handleSideMenuVisibility() }}></img>
         </div>
 
