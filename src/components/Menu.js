@@ -14,13 +14,13 @@ function Menu() {
   return (
     <div>
 
-      <div id='page-header' className='row'>
-        <div id='logo-div' className='col-2'>
+      <div id='page-header'>
+        <div id='logo-div'>
           <img id='logo' src='images/logo.jpg'></img>
           <div></div>
         </div>
 
-        <div id='user-div' className='col-2'>
+        <div id='user-div'>
           <img className='icon-menu-item' src='images/icons/icons8-heart-50.png'></img>
           <img className='icon-menu-item' src='images/icons/icons8-cart-30.png'></img>
           <img className='icon-menu-item' src='images/icons/icons8-account-48.png'></img>
