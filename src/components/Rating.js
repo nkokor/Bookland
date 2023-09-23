@@ -1,9 +1,7 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
 import '../style/slick.css';
 import '../style/slick-theme.css';
 import '../style/Review.css'
-import reviews from "../data/reviews";
 
 function Rating(props) {
   let rating = parseInt(props.rating)
