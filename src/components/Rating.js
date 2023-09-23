@@ -14,10 +14,10 @@ function Rating(props) {
   }
   console.log(stars)
   return (
-    <div className="rating">
+    <div className={props.divClass}>
     {
       stars.map((star) => (
-        <img className="star" src={star}></img>
+        <img className={props.starClass} src={star}></img>
       ))
     }
   </div>

@@ -30,7 +30,7 @@ export default class SimpleSlider extends Component {
                       <h3>{review.userName}</h3>
                       <p>{review.userRole}</p>
                     </div>
-                    <Rating rating={review.rating}></Rating>
+                    <Rating rating={review.rating} divClass='rating' starClass='star'></Rating>
                   </div>
                 </div>
               </div>

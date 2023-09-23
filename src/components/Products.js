@@ -1,5 +1,6 @@
 import products from "../data/products";
 import '../style/Products.css';
+import Rating from "./Rating";
 
 function Products() {
   const renderProducts = (
@@ -50,13 +51,7 @@ function Products() {
             <p className="product-title">{product.title}</p>
             <p className="product-author">{product.author}</p>
             <p className="product-price">{product.price}</p>
-            <div>
-              <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
-              <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
-              <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
-              <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
-              <img className="rating-star" src='images/icons/icons8-star-30.png'></img>
-            </div>
+            <Rating rating={Math.round(product.rating)} starClass='rating-star'></Rating>
             </div>
           </div>
          ))
