@@ -33,7 +33,7 @@ function Menu() {
         <div id='menu-items-div'>
           <a className='menu-item' href='#home'>Home</a>
           <a className='menu-item'>About</a>
-          <a className='menu-item' href='#products'>Products</a>
+          <a className='menu-item' href='#shop'>Products</a>
           <a className='menu-item' href="#reviews">Review</a>
           <a className='menu-item' href='#contact'>Contact</a>
         </div>

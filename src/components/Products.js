@@ -4,8 +4,8 @@ import '../style/Products.css';
 function Products() {
   const renderProducts = (
     <div id='shop'>
+      <p id='products-title'>Our products</p>
       <div id='products-header'>
-
         <div id='category-div'>
           <p>Category:</p>
           <select name="Select category" id="category">

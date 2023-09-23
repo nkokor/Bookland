@@ -3,29 +3,74 @@ import '../style/Review.css';
 
 function Reviews() {
   const renderReviews = (
-    <div id='reviews'>
-    {
-      reviews.map((review) => (
-         <div className="review-card">
-            <div className="review-user-div">
-              <img className="review-user-image" src={review.userImage}></img>
-              <div className="user-info-div">
-               <p className="review-username">{review.userName}</p>
-               <p className="review-user-role">{review.userRole}</p>
+    <section id="reviews">
+      <div className="container">
+        <p id='reviews-title'>What our customers are saying</p>
+        <div className="row">
+
+          <div className="review-card text-center">
+            <div className="profile">
+              <img className="user" src='images/user-images/anne.jpg'></img>
+              <blockquote>A perfect place to buy books, meet new people and just have a hit cup of coffee after a long day.</blockquote>
+              <div className="rating-footer">
+                <div className='customer-info'>
+                  <h3>Anne Klein</h3>
+                  <p>Happy customer</p>
+                </div>
+                <div className="rating">
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-outline-50.png'></img>
+                </div>
               </div>
-            </div>
-            <p className="review-text">{review.reviewComment}</p>
-            <div className="rating-star-div">
-              <img className="review-rating-star" src='images/icons/icons8-yellow-star-50.png'></img>
-              <img className="review-rating-star" src='images/icons/icons8-yellow-star-50.png'></img>
-              <img className="review-rating-star" src='images/icons/icons8-yellow-star-50.png'></img>
-              <img className="review-rating-star" src='images/icons/icons8-yellow-star-outline-50.png'></img>
-              <img className="review-rating-star" src='images/icons/icons8-yellow-star-outline-50.png'></img>
-            </div>
-         </div>
-      ))
-    }
-  </div>
+           </div>
+          </div>
+
+          <div className="review-card text-center">
+            <div className="profile">
+              <img className="user" src='images/user-images/nick.jpg'></img>
+              <blockquote>A perfect place to buy books, meet new people and just have a hit cup of coffee after a long day.</blockquote>
+              <div className="rating-footer">
+                <div className='customer-info'>
+                  <h3>Nick Jones</h3>
+                  <p>Happy customer</p>
+                </div>
+                <div className="rating">
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-outline-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-outline-50.png'></img>
+                </div>
+              </div>
+           </div>
+          </div>
+
+          <div className="review-card text-center">
+            <div className="profile">
+              <img className="user" src='images/user-images/mary.jpg'></img>
+              <blockquote>A perfect place to buy books, meet new people and just have a hit cup of coffee after a long day.</blockquote>
+              <div className="rating-footer">
+                <div className='customer-info'>
+                  <h3>Mary Brown</h3>
+                  <p>Happy customer</p>
+                </div>
+                <div className="rating">
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                  <img className='star' src='images/icons/icons8-star-50.png'></img>
+                </div>
+              </div>
+           </div>
+          </div>
+
+        </div>
+    </div>
+  </section>
   )
   return renderReviews
 }

@@ -32,7 +32,7 @@
 }
 
 .social-link {
-  background-color: rgba(245, 240, 235, 0.496);
+  background-color: #ede9e9;
   border-radius: 50px;
   margin-bottom: 7px;
   padding: 5px;
@@ -75,7 +75,7 @@
   padding-right: 10px;
   border-radius: 50px;
   border: none;
-  background-color: rgba(245, 240, 235, 0.496);
+  background-color: #ede9e9;
 }
 
 #message-input {
