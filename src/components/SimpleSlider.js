@@ -4,6 +4,7 @@ import '../style/slick.css';
 import '../style/slick-theme.css';
 import '../style/Review.css'
 import reviews from "../data/reviews";
+import Rating from "./Rating";
 
 export default class SimpleSlider extends Component {
   render() {
@@ -29,13 +30,7 @@ export default class SimpleSlider extends Component {
                       <h3>{review.userName}</h3>
                       <p>{review.userRole}</p>
                     </div>
-                    <div className="rating">
-                      <img className='star' src='images/icons/icons8-star-50.png'></img>
-                      <img className='star' src='images/icons/icons8-star-50.png'></img>
-                      <img className='star' src='images/icons/icons8-star-50.png'></img>
-                      <img className='star' src='images/icons/icons8-star-50.png'></img>
-                      <img className='star' src='images/icons/icons8-star-outline-50.png'></img>
-                    </div>
+                    <Rating rating={review.rating}></Rating>
                   </div>
                 </div>
               </div>
