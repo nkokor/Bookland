@@ -1,9 +1,12 @@
 .review-card {
-  width: 430px;
-  margin: 30px auto;
+  height: 320px;
+  margin-bottom: 40px;
 }
 
 .profile {
+  margin: auto;
+  top: 50px;
+  position: relative;
   padding: 0px 10px 10px;
   background-color: #ede9e9;
 }
@@ -15,6 +18,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  margin: auto;
 }
 
 .profile h3 {
@@ -76,18 +80,20 @@ blockquote::after {
   margin-top: 0px;
 }
 
-.profile:hover {
-  box-shadow: 0 0 11px 5px rgba(48, 35, 35, 0.2);
-  cursor: pointer;
-  transition: 0.3s;
+.customer-info {
+  width: 200px;
 }
 
 .rating {
+  display: flex;
+  flex-direction: row;
   background-color: #ede9e9;
   justify-content: right;
-  right: -100px;
-  top: 40px;
-  height: 50px;
+  width: 100%;
+  float: right;
+  padding-right: 10px;
+  top: 45px;
+  height: 30px;
   position: relative;
 }
 
