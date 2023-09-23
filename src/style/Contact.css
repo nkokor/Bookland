@@ -1,17 +1,3 @@
-#contact {
-  padding-top: 110px;
-}
-
-#contact-header {
-  font-size: 56px;
-  font-weight: 700;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: rgb(88, 22, 22);
-}
-
 #contact-options {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(700px, max-content));

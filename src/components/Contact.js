@@ -2,9 +2,9 @@ import '../style/Contact.css';
 
 function Contact() {
   return (
-    <div id='contact'>
+    <section id='contact-page'>
 
-      <p id='contact-header'>Have some questions?</p>
+      <p className='section-title'>Have some questions?</p>
 
       <div id='contact-options'>
 
@@ -46,7 +46,7 @@ function Contact() {
         </div>
 
       </div>
-    </div>
+    </section>
   );
 }
 

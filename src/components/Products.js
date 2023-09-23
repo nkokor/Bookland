@@ -3,8 +3,8 @@ import '../style/Products.css';
 
 function Products() {
   const renderProducts = (
-    <div id='shop'>
-      <p id='products-title'>Our products</p>
+    <section id='products-page'>
+      <p className="section-title">Our products</p>
       <div id='products-header'>
         <div id='category-div'>
           <p>Category:</p>
@@ -62,7 +62,7 @@ function Products() {
          ))
         }
       </div>
-    </div>
+    </section>
   )
   return renderProducts
 }

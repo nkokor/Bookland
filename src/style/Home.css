@@ -1,21 +1,6 @@
-#home {
-  background-color: transparent;
-  padding-top: 70px;
-  height: 100vh;
-}
-
 #banner, #vertical-banner {
   width: 100%;
   opacity: 96%;
-}
-
-#home-header {
-  font-size: 56px;
-  font-weight: 700;
-  padding-left: 30px;
-  padding-right: 40px;
-  margin-top: 20px;
-  color: rgb(88, 22, 22);
 }
 
 #home-text {
@@ -73,12 +58,6 @@
     transition: 0s;
     visibility: hidden;
     height: 0px;
-  }
-  #home {
-    padding-top: 55px;
-  }
-  #home-header {
-    font-size: 50px;
   }
 }
 

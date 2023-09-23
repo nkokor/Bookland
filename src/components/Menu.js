@@ -31,11 +31,11 @@ function Menu() {
       <div id='menu-div'>
 
         <div id='menu-items-div'>
-          <a className='menu-item' href='#home'>Home</a>
+          <a className='menu-item' href='#home-page'>Home</a>
           <a className='menu-item'>About</a>
-          <a className='menu-item' href='#shop'>Products</a>
-          <a className='menu-item' href="#reviews">Review</a>
-          <a className='menu-item' href='#contact'>Contact</a>
+          <a className='menu-item' href='#products-page'>Products</a>
+          <a className='menu-item' href="#review-page">Review</a>
+          <a className='menu-item' href='#contact-page'>Contact</a>
         </div>
 
         <div id='search-div'>

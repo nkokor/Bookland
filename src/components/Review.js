@@ -3,9 +3,9 @@ import '../style/Review.css';
 
 function Reviews() {
   const renderReviews = (
-    <section id="reviews">
+    <section id='review-page'>
       <div className="container">
-        <p id='reviews-title'>What our customers are saying</p>
+        <p className="section-title">What our customers are saying</p>
         <div className="row">
 
           <div className="review-card text-center">

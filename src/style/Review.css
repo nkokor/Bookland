@@ -1,30 +1,3 @@
-#reviews {
-  margin: 0px;
-  padding-top: 160px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, max-content));
-  justify-content: center;
-}
-
-#reviews-title {
-  text-align: center;
-  font-weight: bold;
-  font-size: 37px;
-  color: rgb(88, 22, 22);
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-
-#reviews-title::after {
-  content: '';
-  background: rgb(88, 22, 22);
-  display: block;
-  height: 2px;
-  width: 230px;
-  margin: 20px auto 5px;
-  margin-bottom: 50px;
-}
-
 .review-card {
   width: 430px;
   margin: 30px auto;

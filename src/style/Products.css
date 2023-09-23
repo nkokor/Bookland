@@ -1,7 +1,3 @@
-#shop {
-  padding-top: 130px;
-}
-
 #products-header, #category-div, #sorting-div, #view-div {
   display: flex;
   flex-direction: row;
@@ -13,13 +9,6 @@
   padding-left: 0px;
   padding-right: 0px;
   height: fit-content;
-}
-
-#products-title {
-  color: rgb(88, 22, 22);
-  font-size: 56px;
-  font-weight: 700;
-  margin-bottom: 40px;
 }
 
 #category-div, #sorting-div, #view-div {
