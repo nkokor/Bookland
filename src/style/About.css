@@ -1,0 +1,37 @@
+.about-cards {
+  padding-top: 40px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-section-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.about-section-title {
+  font-size: 27px;
+  font-weight: bold;
+  color: rgb(7, 35, 30);
+  text-transform: uppercase;
+}
+
+.about-section-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-section-text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
