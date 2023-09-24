@@ -71,11 +71,6 @@ select:focus {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: transparent;
-  -webkit-transition: all 0.6s ease;
-  -moz-transition: all 0.6s ease;
-  -o-transition: all 0.6s ease;
-  -ms-transition: all 0.6s ease;
-  transition: all 0.6s ease;
   position: relative;
   top: -220px;
   background-color: rgba(255, 255, 255, 0.386);
@@ -129,14 +124,6 @@ select:focus {
   padding-left: 45px;
   padding-right: 27px;
   font-size: 19px;
-}
-
-.cart-button, .cart-button p, .cart-button img {
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  transition: all 0.4s ease;
 }
 
 .cart-button p, .cart-button img {

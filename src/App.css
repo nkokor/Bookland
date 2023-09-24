@@ -19,8 +19,17 @@ section {
   content: '';
   background: rgb(88, 22, 22);
   display: block;
-  height: 2px;
+  height: 1px;
   width: 230px;
   margin: 20px auto 5px;
   margin-bottom: 25px;
+}
+
+#products, .cart-div, .cart-button, .cart-button p, .cart-button img, #shop-link, #shop-link img,
+.footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }

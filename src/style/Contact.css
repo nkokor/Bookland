@@ -79,11 +79,6 @@
   color: rgba(255, 255, 255, 0.868);
   border-radius: 100px;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 #submit-button:hover {

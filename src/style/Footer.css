@@ -67,11 +67,6 @@
 
 .footer-contact-link img, .footer-contact-link p, .footer-social-link {
   opacity: 80%;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .footer-contact-link:hover img, .footer-contact-link:hover p, .footer-social-link:hover {
