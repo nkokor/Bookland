@@ -25,7 +25,24 @@ function About() {
           <img className="about-section-image" src='images/about2.jpg'></img>
         </div>
 
-        
+      </div>
+
+      <div id='about-tags'>
+
+        <div className='about-tag-div'>
+          <img src='images/icons/icons8-delivery-50.png'></img>
+          <p>Fast delivery</p>
+        </div>
+
+        <div className='about-tag-div'>
+          <img src='images/icons/icons8-online-payment-50.png'></img>
+          <p>Safe payment</p>
+        </div>
+
+        <div className='about-tag-div'>
+          <img src='images/icons/icons8-price-50.png'></img>
+          <p>Lowest prices</p>
+        </div>
 
       </div>
 

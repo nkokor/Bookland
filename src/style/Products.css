@@ -53,9 +53,11 @@ select:focus {
 }
 
 #products .product-card {
-  height: 323px;
-  width: 240px;
+  height: 363px;
+  width: 260px;
   justify-content: center;
+  border-radius: 6px;
+  padding: 10px;
   margin-bottom: 17px;
 }
 
