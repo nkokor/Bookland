@@ -28,10 +28,7 @@
 }
 
 .side-menu-item {
-  text-decoration: none;
-  color: white;
   margin-top: 13px;
-  font-size: 19px;
   text-align: left;
   padding-left: 25px;
 }
@@ -42,3 +39,4 @@
     visibility: hidden;
   }
 }
+

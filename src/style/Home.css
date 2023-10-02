@@ -6,10 +6,46 @@
 #home-text {
   padding-left: 40px;
   padding-right: 40px;
-  font-size: 20px;
-  margin-bottom: 40px;
+  font-size: 18px;
+  margin-bottom: 20px;
   margin-top: 20px;
-  color: rgba(55, 87, 87, 0.79);
+  color: rgba(55, 87, 87, 0.692);
+}
+
+#tags {
+  width: max-content;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+#tags, .tag-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.tag-div {
+  width: 190px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border: 3px;
+  border-color: rgba(174, 168, 131, 0.516);
+  border-radius: 3px;
+}
+
+.tag-div img {
+  height: 42px;
+  margin-right: 5px;
+  opacity: 70%;
+}
+
+.tag-div p {
+  padding-top: 9px;
+  margin-bottom: 14px;
+  color: rgba(174, 168, 131, 0.704);
 }
 
 #shop-button {
@@ -23,12 +59,17 @@
   height: 25px;
   margin-left: 10px;
   padding-bottom: 2px;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 #shop-link {
   text-decoration: none;
-  color: white;
+  font-size: 18px;
+  color: rgba(55, 87, 87, 0.692)
+}
+
+#shop-link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 850px) {
@@ -44,5 +85,21 @@
     height: 0px;
     transition: 0s;
     visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #tags {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .tag-div {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  #tags {
+    margin-bottom: 30px;
   }
 }

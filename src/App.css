@@ -26,10 +26,21 @@ section {
 }
 
 #products, .cart-div, .cart-button p, .cart-button img, #shop-link, #shop-link img,
-.footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button {
+.footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button, #hamburger-menu-icon, .menu-item, .side-menu-item {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
   transition: all 0.4s ease;
+}
+
+.menu-item, .side-menu-item {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.695);
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.menu-item:hover, .side-menu-item:hover {
+  color: white;
 }
