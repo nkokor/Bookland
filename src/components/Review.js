@@ -1,13 +1,12 @@
-import reviews from "../data/reviews";
 import '../style/Review.css';
-import SimpleSlider from "./SimpleSlider";
+import ReviewSlider from "./ReviewSlider";
 
 function Reviews() {
   const renderReviews = (
     <section id='review-page'>
       <div className="container">
         <p className="section-title">What our customers are saying</p>
-        <SimpleSlider></SimpleSlider>
+        <ReviewSlider></ReviewSlider>
     </div>
   </section>
   )

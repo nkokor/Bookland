@@ -1,12 +1,13 @@
-#banner, #vertical-banner {
+.banner{
   width: 100%;
   opacity: 96%;
+  background-color: rgba(55, 87, 87, 0.692);
 }
 
 #home-text {
   padding-left: 40px;
   padding-right: 40px;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 20px;
   margin-top: 20px;
   color: rgba(55, 87, 87, 0.692);
@@ -15,8 +16,8 @@
 #tags {
   width: max-content;
   margin: auto;
-  margin-top: 5px;
-  margin-bottom: 30px;
+  margin-top: 0px;
+  margin-bottom: 13px;
 }
 
 #tags, .tag-div {
@@ -37,20 +38,19 @@
 }
 
 .tag-div img {
-  height: 42px;
+  height: 38px;
   margin-right: 5px;
   opacity: 70%;
 }
 
 .tag-div p {
-  padding-top: 9px;
+  padding-top: 7px;
   margin-bottom: 14px;
   color: rgba(174, 168, 131, 0.704);
 }
 
 #shop-button {
   justify-content: center;
-  padding-top: 12px;
   margin: auto;
   width: 190px;
 }
@@ -64,7 +64,8 @@
 
 #shop-link {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 15px;
   color: rgba(55, 87, 87, 0.692)
 }
 
@@ -91,15 +92,15 @@
 @media screen and (max-width: 640px) {
   #tags {
     flex-direction: column;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .tag-div {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
 }
 
 @media screen and (min-width: 640px) {
   #tags {
-    margin-bottom: 30px;
+    margin-bottom: 12px;
   }
 }

@@ -3,7 +3,7 @@
 }
 
 section {
-  padding-top: 150px;
+  padding-top: 126px;
 }
 
 .section-title {
@@ -12,6 +12,7 @@ section {
   color: rgb(47, 74, 74);
   text-transform: uppercase;
   padding-bottom: 0px;
+  padding-top: 20px;
   margin-bottom: 10px;
 }
 
