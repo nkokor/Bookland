@@ -1,5 +1,18 @@
+#about-page {
+  padding-bottom: 140px;
+}
+
+#about-title {
+  font-size: 37px;
+  font-weight: 600;
+  color: rgb(47, 74, 74);
+  text-transform: uppercase;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
 .about-cards {
-  padding-top: 40px;
+  padding-top: 27px;
   padding-bottom: 0px;
   width: 100%;
 }
@@ -16,15 +29,22 @@
 }
 
 .about-section-image {
-  height: 150px;
-  width: 150px;
-  border-radius: 100%;
+  height: 170px;
+  width: 170px;
+}
+
+#about1 {
+  border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+}
+
+#about2 {
+  border-radius: 90% 50% 50% 60% / 50% 40% 60% 80%;
 }
 
 .about-section-title {
   font-size: 27px;
-  font-weight: bold;
-  color: rgb(7, 35, 30);
+  font-weight: 500;
+  color: rgb(55, 87, 87);
   text-transform: uppercase;
 }
 
@@ -36,6 +56,7 @@
 .about-section-text {
   padding-left: 40px;
   padding-right: 40px;
+  color: rgba(55, 87, 87, 0.685);
 }
 
 #about-tags {
@@ -72,5 +93,15 @@
   padding-left: 10px;
   padding-right: 10px;
   color: rgb(38, 84, 74);
+}
+
+@media screen and (max-width: 640px) {
+  .about-section {
+    flex-direction: column;
+  }
+  .about-section-image {
+    margin: auto;
+    margin-bottom: 15px;
+  }
 }
 
