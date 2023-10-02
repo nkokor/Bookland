@@ -4,45 +4,31 @@
 }
 
 #home-text {
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 23px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
   margin-bottom: 40px;
+  margin-top: 20px;
+  color: rgba(55, 87, 87, 0.79);
+}
+
+#shop-button {
+  justify-content: center;
+  padding-top: 12px;
+  margin: auto;
+  width: 190px;
+}
+
+#shop-button img {
+  height: 25px;
+  margin-left: 10px;
+  padding-bottom: 2px;
+  opacity: 80%;
 }
 
 #shop-link {
   text-decoration: none;
-  text-align: right;
-  font-size: 18px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.868);
-  background-color: rgb(88, 22, 22);
-  width: 180px;
-  margin: auto;
-  border-radius: 100px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 26px;
-  cursor: pointer;
-}
-
-#shop-link img {
-  height: 25px;
-  margin-left: 10px;
-  padding-bottom: 2px;
-}
-
-#shop-link img {
-  opacity: 80%;
-}
-
-#shop-link:hover {
   color: white;
-} 
-
-#shop-link:hover img {
-  opacity: 100%;
 }
 
 @media screen and (max-width: 850px) {

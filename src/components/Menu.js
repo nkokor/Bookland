@@ -16,7 +16,7 @@ function Menu() {
 
       <div id='page-header'>
         <div id='logo-div'>
-          <img id='logo' src='images/logo.jpg'></img>
+          <img id='logo' src='images/bookland-logo.jpg'></img>
           <div></div>
         </div>
 

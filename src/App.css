@@ -7,25 +7,25 @@ section {
 }
 
 .section-title {
-  text-align: center;
-  font-weight: bold;
   font-size: 37px;
-  color: rgb(88, 22, 22);
-  padding-bottom: 0px;
+  font-weight: 500;
+  color: rgb(47, 74, 74);
   text-transform: uppercase;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
 }
 
-.section-title::after {
-  content: '';
-  background: rgb(88, 22, 22);
-  display: block;
-  height: 1px;
-  width: 230px;
-  margin: 20px auto 5px;
-  margin-bottom: 25px;
+.button {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  background-color: rgb(55, 87, 87);
+  height: 50px;
+  color: white;
+  cursor: pointer;
 }
 
-#products, .cart-div, .cart-button, .cart-button p, .cart-button img, #shop-link, #shop-link img,
+#products, .cart-div, .cart-button p, .cart-button img, #shop-link, #shop-link img,
 .footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;

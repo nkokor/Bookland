@@ -41,7 +41,7 @@ function Products() {
           <div className="product-card">
           <img className="product-image" src={product.image}></img>
           <div className='cart-div'>
-            <div className="cart-button">
+            <div className="cart-button button">
               <p>Add to cart</p>
               <img className='cart-icon' src='images/icons/icons8-cart-white-30.png'></img>
             </div>

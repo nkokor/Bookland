@@ -97,7 +97,7 @@ select:focus {
 }
 
 .product-card .product-title {
-  font-weight: 800;
+  font-weight: 600;
   padding-top: 6px;
 }
 
@@ -109,23 +109,15 @@ select:focus {
 .cart-button {
   position: relative;
   top: 170px;
-  display: flex;
-  flex-direction: row;
-  background-color:  rgba(88, 22, 22, 0.714);
-  height: 50px;
-  width: 240px;
-  color: white;
-  border-radius: 100px;
-  cursor: pointer;
 }
 
 .cart-button p {
-  font-weight: bold;
+  font-weight: 400;
   margin-left: 30px;
-  padding-top: 10px;
+  padding-top: 13px;
   padding-left: 45px;
   padding-right: 27px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 .cart-button p, .cart-button img {
@@ -133,8 +125,8 @@ select:focus {
 }
 
 .cart-icon {
-  height: 37px;
-  margin-top: 7px;
+  height: 33px;
+  margin-top: 8px;
   padding: 2px;
 }
 
@@ -144,10 +136,6 @@ select:focus {
   top: -54px;
   right: -99px;
   cursor: pointer;
-}
-
-.cart-button:hover {
-  background-color: rgb(88, 22, 22);
 }
 
 .cart-button:hover p, .cart-button:hover img {
