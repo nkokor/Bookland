@@ -25,7 +25,7 @@
 }
 
 .footer-contact-link img {
-  height: 43px;
+  height: 40px;
 }
 
 .footer-contact-link p {
@@ -39,12 +39,16 @@
 }
 
 #footer-title {
-  font-weight: bold;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 27px;
 }
 
 #footer-company-info p {
   opacity: 86%;
+}
+
+#company-text {
+  font-size: 15px;
 }
 
 #footer-socials {
@@ -52,7 +56,7 @@
 }
 
 .footer-social-link {
-  height: 40px;
+  height: 35px;
   margin: 10px;
   cursor: pointer;
 }
@@ -62,6 +66,7 @@
   padding-top: 35px;
   padding-bottom: 10px;
   margin-bottom: 0px;
+  font-size: 14px;
 }
 
 .footer-contact-link img, .footer-contact-link p, .footer-social-link {
