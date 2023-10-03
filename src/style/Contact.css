@@ -6,16 +6,12 @@
 }
 
 #contact-title {
-  text-transform: uppercase;
-  color: rgb(55, 87, 87);
   font-size: 26px;
   float: left;
   margin-left: 10px;
 }
 
 #message-form {
-  display: flex;
-  flex-direction: column;
   width: max-content;
   margin: auto;
 }
@@ -30,8 +26,6 @@
   background-color: white;
   margin-left: 10px;
   margin-right: 10px;
-  display: flex;
-  flex-direction: row;
   margin-bottom: 25px;
   padding: 20px;
   padding-left: 10px;
@@ -54,22 +48,13 @@
 #company-title {
   font-size: 21px;
   font-weight: bold;
-  color: rgb(55, 87, 87);
 }
 
 #phone-mail-div {
-  display: flex;
-  flex-direction: column;
   justify-content: flex-end;
 }
 
-.contact-link, .sender-input-row {
-  display: flex;
-  flex-direction: row;
-}
-
 .contact-link img {
-  width: 27px;
   height: 27px;
   margin-left: 10px;
   margin-right: 10px;
@@ -82,44 +67,30 @@
 .sender-input {
   height: 40px;
   width: 270px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
+  margin-top: 0px;
 }
 
 #message-input {
   resize: none;
   border: none;
   height: 180px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0px;
 }
 
 #submit-button {
   float: right;
   margin-right: 10px;
-  text-transform: uppercase;
-  background-color: rgb(55, 87, 87);
   color: white;
-  padding-left: 13px;
-  padding-right: 13px;
+  padding: 13px;
   padding-top: 7px;
   padding-bottom: 7px;
-  cursor: pointer;
 }
 
 input:focus, textarea:focus {
   outline: none;
-}
-
-#socials-div {
-  display: flex;
-  flex-direction: row;
 }
 
 #socials-div img {
@@ -130,10 +101,10 @@ input:focus, textarea:focus {
   margin-right: 4px;
 }
 
-.link {
-  color: rgb(55, 87, 87);
-  cursor: pointer;
+#submit-button {
+  background-color: rgb(55, 87, 87);
 }
+
 
 
 

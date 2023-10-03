@@ -16,14 +16,6 @@
   padding-top: 40px;
 }
 
-#footer-contact p {
-  cursor: pointer;
-}
-
-.footer-contact-link {
-  display: flex;
-}
-
 .footer-contact-link img {
   height: 40px;
 }
@@ -58,7 +50,6 @@
 .footer-social-link {
   height: 35px;
   margin: 10px;
-  cursor: pointer;
 }
 
 #copyright {

@@ -3,19 +3,12 @@
   overflow-x: hidden;
 }
 
-.banner{
-  width: 100%;
-  opacity: 96%;
-  background-color: rgba(55, 87, 87, 0.692);
-}
-
 #home-text {
   padding-left: 40px;
   padding-right: 40px;
   font-size: 15px;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: rgba(55, 87, 87, 0.692);
 }
 
 #tags {
@@ -23,11 +16,6 @@
   margin: auto;
   margin-top: 0px;
   margin-bottom: 13px;
-}
-
-#tags, .tag-div {
-  display: flex;
-  flex-direction: row;
 }
 
 .tag-div {
@@ -71,7 +59,6 @@
   text-decoration: none;
   font-size: 16px;
   margin-top: 15px;
-  color: rgba(55, 87, 87, 0.692)
 }
 
 #shop-link:hover {

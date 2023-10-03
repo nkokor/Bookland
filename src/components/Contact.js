@@ -23,7 +23,7 @@ function Contact() {
         <div id='message-form'>
 
           <div>
-            <p id='contact-title'>Contact us</p>
+            <p id='contact-title'>CONTACT US</p>
           </div> 
 
           <div id='contact-info-div'>
@@ -65,7 +65,7 @@ function Contact() {
           </div>
           <textarea id='message-input' rows="20" cols="50" placeholder='Message'></textarea>
           <div>
-            <p id='submit-button'>Send message</p>
+            <p id='submit-button'>SEND MESSAGE</p>
           </div>
         </div>
 

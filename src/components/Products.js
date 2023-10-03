@@ -5,7 +5,7 @@ import Rating from "./Rating";
 function Products() {
   const renderProducts = (
     <section id='products-page'>
-      <p className="section-title">Our products</p>
+      <p className="section-title">OUR PRODUCTS</p>
 
       <div id='products'>
       <div id='products-filters-div'>
@@ -45,7 +45,7 @@ function Products() {
           <img className="product-image" src={product.image}></img>
           <div className='cart-div'>
             <div className="cart-button button">
-              <p>Add to cart</p>
+              <p>ADD TO CART</p>
               <img className='cart-icon' src='images/icons/icons8-cart-white-30.png'></img>
             </div>
             <img className='heart-icon' src='images/icons/icons8-heart-outline-50.png'></img>

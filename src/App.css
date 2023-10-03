@@ -9,26 +9,34 @@ section {
 .section-title {
   font-size: 37px;
   font-weight: 500;
-  color: rgb(47, 74, 74);
-  text-transform: uppercase;
   padding-bottom: 0px;
   padding-top: 20px;
   margin-bottom: 10px;
 }
 
 .button {
-  display: flex;
-  flex-direction: row;
-  text-transform: uppercase;
   background-color: rgb(55, 87, 87);
   height: 50px;
   color: white;
-  cursor: pointer;
 }
 
-#products, .cart-div, .cart-button p, .cart-button img, #shop-link, #shop-link img,
-.footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button, 
-#hamburger-menu-icon, .menu-item, .side-menu-item, .heart-icon {
+.section-title, .about-section-title, .product-title, 
+.profile h3, blockquote::before, blockquote::after, 
+#contact-title, #company-title, .link {
+  color: rgb(55, 87, 87);
+}
+
+#home-text, #shop-link,
+.about-section-text,
+.option-picker p, #products select, #products select option, .product-author, 
+.customer-info p {
+  color: rgba(55, 87, 87, 0.555);
+}
+
+.menu-item, .side-menu-item, #hamburger-menu-icon,
+#shop-link, #products, .cart-div, .cart-button p, .cart-button img, .heart-icon
+#submit-button, 
+.footer-contact-link img, .footer-contact-link p, .footer-social-link {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
@@ -40,9 +48,36 @@ section {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.695);
   font-size: 17px;
-  cursor: pointer;
 }
 
 .menu-item:hover, .side-menu-item:hover {
   color: white;
+}
+
+#page-header, #menu-div, #menu-items-div, #search-div, 
+#tags, .tag-div, 
+.about-section,
+#category-div, #sorting-view-div, #sorting-div, #view-div,  .button, 
+.rating, .rating-footer,
+#contact-info-div, .contact-link, .sender-input-row, #socials-div,
+.footer-contact-link {
+  display: flex;
+  flex-direction: row;
+}
+
+#side-menu, #side-menu-items-div, 
+.about-section-info, 
+.product-info, 
+#message-form, #phone-mail-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item, .side-menu-item,
+.icon-menu-item, #hamburger-menu-icon,
+.heart-icon,
+#submit-button, .link,
+#footer-contact p, .footer-social-link,
+.button {
+  cursor: pointer;
 }

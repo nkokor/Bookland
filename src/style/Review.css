@@ -31,7 +31,6 @@
   font-size: 20px;
   font-weight: bold;
   margin-top: 15px;
-  color: rgb(55, 87, 87);
 }
 
 span {
@@ -51,7 +50,6 @@ blockquote::before, blockquote::after {
   content: '"';
   font-size: 50px;
   position: relative;
-  color: rgb(55, 87, 87);
   bottom: -15px;
 }
 
@@ -66,7 +64,6 @@ blockquote::after {
 }
 
 .rating-footer {
-  display: flex;
   padding-left: 20px;
 }
 
@@ -83,7 +80,6 @@ blockquote::after {
 .customer-info p {
   padding-top: 0px;
   margin-top: 0px;
-  color: rgba(55, 87, 87, 0.644);
 }
 
 .customer-info {
@@ -91,8 +87,6 @@ blockquote::after {
 }
 
 .rating {
-  display: flex;
-  flex-direction: row;
   justify-content: right;
   width: 100%;
   float: right;

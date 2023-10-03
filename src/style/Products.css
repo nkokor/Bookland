@@ -1,8 +1,3 @@
-#category-div, #sorting-div, #view-div, #sorting-view-div {
-  display: flex;
-  flex-direction: row;
-}
-
 #products-filters-div {
   padding-left: 20px;
   padding-right: 20px;
@@ -45,9 +40,7 @@ select:focus {
   grid-gap: 2rem;
   column-gap: 0px;
   margin-top: 20px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   padding-bottom: 60px;
 }
 
@@ -104,10 +97,8 @@ select:focus {
   float: right;
 }
 
-#products .product-info {
+.product-info {
   justify-content: center;
-  display: flex;
-  flex-direction: column;
   padding: 0px;
   position: relative;
   top: -220px;
@@ -117,20 +108,18 @@ select:focus {
   height: 220px;
 }
 
-.product-card .product-title {
+.product-title {
   font-weight: 600;
   padding-top: 6px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
-  color: rgb(55, 87, 87);
 }
 
 .product-author {
   text-align: left;
   font-size: 15px;
   padding-left: 20px;
-  color: rgba(55, 87, 87, 0.822);
 }
 
 .product-card .rating-star {
@@ -167,7 +156,6 @@ select:focus {
   position: relative;
   top: -39px;
   right: -99px;
-  cursor: pointer;
   opacity: 50%;
 }
 
@@ -182,25 +170,17 @@ select:focus {
 .option-picker p {
   font-weight: 300;
   padding-right: 10px;
-  color: rgba(55, 87, 87, 0.822);
   font-size: 17px;
 }
 
 #products select {
   border-color: rgba(55, 87, 87, 0.822);
   border-radius: 3px;
-  color: rgba(55, 87, 87, 0.822);
   font-size: 16px;
 }
 
 #products select option {
-  color: rgba(55, 87, 87, 0.822);
   font-size: 14px;
-}
-
-select option:checked,
-select option:hover {
-    box-shadow: 0 0 10px 100px #000 inset;
 }
 
 @media screen and (max-width: 670px) {

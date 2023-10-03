@@ -5,7 +5,7 @@ function Home() {
   return (
     <section id='home-page'>
       <HomeNewsSlider></HomeNewsSlider>
-      <p className='section-title'>Let's explore the magical world of literature</p>
+      <p className='section-title'>LET'S EXPLORE THE MAGICAL WORLD OF LITERATURE</p>
       <p id='home-text'>We invite you to embark on a literary voyage with us at Bookland. Whether you seek knowledge, adventure, or solace, you'll find it within the pages of our carefully selected books. Join our community, explore our shelves, and let the world of literature unfold before you.</p>
       <div id='tags'>
         <div className='tag-div'>

@@ -38,7 +38,7 @@ function Footer() {
         </div>
 
         <div id="footer-company-info">
-          <p id="footer-title">About us</p>
+          <p id="footer-title">ABOUT US</p>
           <p id='company-text'>We offer a tremendous gathering of books in the various classifications of Fiction, Non-fiction, Biographies, History, Religions, Self Help, and Children. We likewise move in immense accumulation of Investments and Management, Computers, Engineering, Medical, College, and School content references books proposed by various foundations as scheduled the nation over. </p> 
           <div id="footer-socials">
             <img className='footer-social-link' src="images/icons/icons8-instagram-white-50.png"></img> 

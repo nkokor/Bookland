@@ -5,7 +5,7 @@ function Reviews() {
   const renderReviews = (
     <section id='review-page'>
       <div className="container">
-        <p className="section-title">What our customers are saying</p>
+        <p className="section-title">WHAT OUR CUSTOMERS ARE SAYING</p>
         <ReviewSlider></ReviewSlider>
     </div>
   </section>
