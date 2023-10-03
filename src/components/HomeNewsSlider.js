@@ -17,7 +17,7 @@ export default class SimpleSlider extends Component {
     };
 
     const renderSlider = (
-      <div>
+      <div className="news-slider">
         <Slider {...settings}>
           {
             news.map((slide) => (

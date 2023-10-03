@@ -21,7 +21,7 @@
 
     cursor: pointer;
 
-    color: transparent;
+    color: black;
     border: none;
     outline: none;
     background: transparent;
@@ -107,7 +107,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: 30px;
+    bottom: -15px;
 
     display: block;
 
@@ -163,7 +163,7 @@
 .slick-dots li button:before
 {
     font-family: 'Arial';
-    font-size: 48px;
+    font-size: 34px;
     line-height: 20px;
     font-weight: bolder;
 
@@ -174,7 +174,7 @@
     width: 20px;
     height: 20px;
 
-    content: ' _ ';
+    content: ' • ';
     text-align: center;
 
     opacity: .25;

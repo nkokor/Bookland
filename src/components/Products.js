@@ -6,8 +6,10 @@ function Products() {
   const renderProducts = (
     <section id='products-page'>
       <p className="section-title">Our products</p>
-      <div id='products-header'>
-        <div id='category-div'>
+
+      <div id='products'>
+      <div id='products-filters-div'>
+        <div id='category-div' className="option-picker">
           <p>Category:</p>
           <select name="Select category" id="category">
             <option value="romance">Romance</option>
@@ -18,24 +20,25 @@ function Products() {
           </select>
         </div>
 
-        <div id='sorting-div'>
-          <p>Sort:</p>
-          <select name="Sort by" id="sorting">
-            <option value="price">Price</option>
-            <option value="rating">Rating</option>
-            <option value="author">Author</option>
-          </select>
-        </div>
+        <div id='sorting-view-div'>
+          <div id='sorting-div' className="option-picker">
+            <p>Sort:</p>
+            <select name="Sort by" id="sorting">
+              <option value="price">Price</option>
+              <option value="rating">Rating</option>
+              <option value="author">Author</option>
+            </select>
+          </div>
 
-        <div id='view-div'>
-          <select name="View" id="view">
-            <option>List view</option>
-            <option>Grid view</option>
-          </select>
+          <div id='view-div' className="option-picker">
+            <select name="View" id="view">
+              <option>List view</option>
+              <option>Grid view</option>
+            </select>
+          </div>
         </div>
 
       </div>
-      <div id='products'>
       {
       products.map((product) => (
           <div className="product-card">
@@ -50,8 +53,10 @@ function Products() {
           <div className="product-info">
             <p className="product-title">{product.title}</p>
             <p className="product-author">{product.author}</p>
-            <p className="product-price">{product.price}</p>
-            <Rating rating={Math.round(product.rating)} starClass='rating-star'></Rating>
+            <div className="product-card-footer">
+              <p className="product-price">{product.price}</p>
+              <Rating rating={Math.round(product.rating)} starClass='rating-star' divClass='rating-div'></Rating>
+            </div>
             </div>
           </div>
          ))

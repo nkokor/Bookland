@@ -1,59 +1,80 @@
 const products = [
   {
-    image: 'images/product-images/sorcerer\'s-stone.jpg',
-    title: 'Harry Potter and The Sorcerer\'s Stone',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/loathe-to-love-you.jpg',
+    title: 'Loathe To Love You',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 4.5
   },
   {
-    image: 'images/product-images/chamber-of-secrets.jpg',
-    title: 'Harry Potter and the Chamber of Secrets',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/the-love-hypothesis.jpg',
+    title: 'The Love Hypothesis',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 3.6
   },
   {
-    image: 'images/product-images/prisoner-of-azkaban.jpg',
-    title: 'Harry Potter and the Prisoner of Azkaban',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/stuck-with-you.jpg',
+    title: 'Stuck With You',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 5
   },
   {
-    image: 'images/product-images/goblet-of-fire.jpg',
-    title: 'Harry Potter and the Goblet of Fire',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/below-zero.jpg',
+    title: 'Below Zero',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 3.7
   },
   {
-    image: 'images/product-images/order-of-the-phoenix.jpg',
-    title: 'Harry Potter and the Order of the Phoenix',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/love-on-the-brain.jpg',
+    title: 'Love On The Brain',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 4.6
   },
   {
-    image: 'images/product-images/half-blood-prince.jpg',
-    title: 'Harry Potter and the Half-Blood Prince',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/love-theoretically.jpg',
+    title: 'Love, Theoretically',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 5
   },
   {
-    image: 'images/product-images/deathly-hallows.jpg',
-    title: 'Harry Potter and the Deathly Hallows',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/under-one-roof.jpg',
+    title: 'Under One Roof',
+    author: 'Ali Hazelwood',
     price: '$19.99',
     rating: 4
   },
   {
-    image: 'images/product-images/cursed-child.jpg',
-    title: 'Harry Potter and the Cursed Child',
-    author: 'J. K. Rowling',
+    image: 'images/product-images/check-and-mate.jpg',
+    title: 'Check & Mate',
+    author: 'Ali Hazelwoon',
     price: '$19.99',
     rating: 2.4
+  },
+  {
+    image: 'images/product-images/the-kiss-quotient.jpg',
+    title: 'The Kiss Quotient',
+    author: 'Helen Hoang',
+    price: '$19.99',
+    rating: 3.4
+  },
+  {
+    image: 'images/product-images/the-bride-test.jpg',
+    title: 'The Bride Test',
+    author: 'Helen Hoang',
+    price: '$19.99',
+    rating: 3.4
+  },
+  {
+    image: 'images/product-images/the-heart-principle.jpg',
+    title: 'The Heart Principle',
+    author: 'Helen Hoang',
+    price: '$19.99',
+    rating: 3.4
   }
 ]
 

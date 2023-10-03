@@ -27,7 +27,8 @@ section {
 }
 
 #products, .cart-div, .cart-button p, .cart-button img, #shop-link, #shop-link img,
-.footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button, #hamburger-menu-icon, .menu-item, .side-menu-item {
+.footer-contact-link img, .footer-contact-link p, .footer-social-link, #submit-button, 
+#hamburger-menu-icon, .menu-item, .side-menu-item, .heart-icon {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
