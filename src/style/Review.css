@@ -60,20 +60,25 @@ blockquote::before {
 
 blockquote::after {
   line-height: 10px;
-  left: 5px;
+  left: 2px;
 }
 
 .rating-footer {
-  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  padding-left: 5px;
   padding-bottom: 20px;
   height: 70px;
 }
 
-.customer-info h3, .customer-info p {
+.customer-info .name, .customer-info p {
   text-align: left;
 }
 
-.customer-info h3 {
+.customer-info .name {
+  font-size: 19px;
+  font-weight: 700;
   margin-top: 0px;
   padding-top: 10px;
   padding-bottom: 0px;
@@ -81,24 +86,21 @@ blockquote::after {
 }
 
 .customer-info p {
+  font-size: 15px;
   padding-top: 0px;
   margin-top: 0px;
 }
 
-.customer-info {
-  width: 200px;
-}
-
 .rating {
-  float: right;
   padding-right: 10px;
   margin-top: 20px;
+  width: 100%;
   height: 30px;
+  justify-content: right;
 }
 
 .star {
   height: 25px;
-  width: 25px;
   margin-left: 6px;
 }
 
@@ -107,3 +109,19 @@ blockquote::after {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 433px) {
+  .customer-info .name {
+    font-size: 15px;
+  }
+  .customer-info p {
+    font-size: 13px;
+  }
+  .rating .star {
+    height: 20px;
+  }
+  .review-card {
+    margin-bottom: 30px;
+  }
+}
+

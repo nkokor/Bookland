@@ -27,7 +27,7 @@ export default class SimpleSlider extends Component {
                   <blockquote>{review.reviewComment}</blockquote>
                   <div className="rating-footer">
                     <div className='customer-info'>
-                      <h3>{review.userName}</h3>
+                      <p className="name">{review.userName}</p>
                       <p>{review.userRole}</p>
                     </div>
                     <Rating rating={review.rating} divClass='rating' starClass='star'></Rating>

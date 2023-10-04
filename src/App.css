@@ -21,7 +21,7 @@ section {
 }
 
 .section-title, .about-section-title, .product-title, 
-.profile h3, blockquote::before, blockquote::after, 
+.profile .name, blockquote::before, blockquote::after, 
 #contact-title, #company-title, .link {
   color: rgb(55, 87, 87);
 }
@@ -58,7 +58,7 @@ section {
 #tags, .tag-div, 
 .about-section,
 #category-div, #sorting-view-div, #sorting-div, #view-div,  .button, 
-.rating, .rating-footer,
+.rating,
 #contact-info-div, .contact-link, #socials-div,
 .footer-contact-link {
   display: flex;
