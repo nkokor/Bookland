@@ -23,6 +23,7 @@
 }
 
 #message-form {
+  width: 650px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -123,10 +124,13 @@ input:focus, textarea:focus {
 }
 
 
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 650px) {
   #contact-info-div {
     display: flex;
     flex-direction: column;
+  }
+  #message-form {
+    width: 100%;
   }
   #phone-mail-div {
     margin-left: 90px;
