@@ -52,8 +52,7 @@
     margin-bottom: 15px;
   }
   .about-section-text {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0PX;
   }
 }
 

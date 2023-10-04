@@ -5,11 +5,6 @@
   margin-top: 80px;
 }
 
-#company-info-div {
-  display: flex;
-  flex-direction: row;
-}
-
 .sender-info-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -144,12 +139,6 @@ input:focus, textarea:focus {
   }
   .sender-input {
     width: 100%;
-  }
-  .first {
-    margin: auto;
-  }
-  .second {
-    margin: auto;
   }
   .sender-input, textarea {
     margin-bottom: 10px;
