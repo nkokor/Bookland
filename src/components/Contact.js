@@ -28,15 +28,17 @@ function Contact() {
 
           <div id='contact-info-div'>
 
-            <div id='location-icon-div'>
-              <img src='images/icons/icons8-location-contact-96.png'></img>
-            </div>
+            <div id='company-info-div'>
+              <div id='location-icon-div'>
+                <img src='images/icons/icons8-location-contact-96.png'></img>
+              </div>
 
-            <div id='address-div'>
-              <p id='company-title'>BOOKLAND</p>
-              <p className='link' onClick={() => {openMaps()}}>24, Cornelia Street</p>
-              <p>New York, NY 10014</p>
-              <p>USA</p>
+              <div id='address-div'>
+                <p id='company-title'>BOOKLAND</p>
+                <p className='link' onClick={() => {openMaps()}}>24, Cornelia Street</p>
+                <p>New York, NY 10014</p>
+                <p>USA</p>
+              </div>
             </div>
 
             <div id='phone-mail-div'>
@@ -57,11 +59,11 @@ function Contact() {
 
           <div className='sender-info-row'>
             <input className='sender-input' type="text" placeholder="First name"></input>
-            <input className='sender-input' type="text" placeholder="Last name"></input>
+            <input className='sender-input second' type="text" placeholder="Last name"></input>
           </div>
           <div className='sender-info-row'>
             <input className='sender-input' type="text" placeholder="Email"></input>
-            <input className='sender-input' type='text' placeholder='Phone'></input>
+            <input className='sender-input second' type='text' placeholder='Phone'></input>
           </div>
           <textarea id='message-input' rows="20" cols="50" placeholder='Message'></textarea>
           <div>

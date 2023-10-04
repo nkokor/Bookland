@@ -5,6 +5,17 @@
   margin-top: 80px;
 }
 
+#company-info-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.sender-info-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+
 #contact-title {
   font-size: 26px;
   float: left;
@@ -12,8 +23,9 @@
 }
 
 #message-form {
-  width: max-content;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #message-form input {
@@ -38,7 +50,7 @@
 
 #address-div {
   margin-left: 7px;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 
 #address-div p {
@@ -51,6 +63,7 @@
 }
 
 #phone-mail-div {
+  margin-left: 40px;
   justify-content: flex-end;
 }
 
@@ -66,9 +79,8 @@
 
 .sender-input {
   height: 40px;
-  width: 270px;
-  margin: 10px;
   margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 #message-input {
@@ -103,6 +115,41 @@ input:focus, textarea:focus {
 
 #submit-button {
   background-color: rgb(55, 87, 87);
+}
+
+.sender-info-row {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 587px) {
+  #contact-info-div {
+    display: flex;
+    flex-direction: column;
+  }
+  #phone-mail-div {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .sender-info-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .sender-input {
+    width: 100%;
+  }
+  .first {
+    margin: auto;
+  }
+  .second {
+    margin: auto;
+  }
+  .sender-input, textarea {
+    margin-bottom: 10px;
+  }
 }
 
 

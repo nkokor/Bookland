@@ -59,7 +59,7 @@ section {
 .about-section,
 #category-div, #sorting-view-div, #sorting-div, #view-div,  .button, 
 .rating, .rating-footer,
-#contact-info-div, .contact-link, .sender-input-row, #socials-div,
+#contact-info-div, .contact-link, #socials-div,
 .footer-contact-link {
   display: flex;
   flex-direction: row;
