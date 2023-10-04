@@ -7,11 +7,14 @@ section {
 }
 
 .section-title {
-  font-size: 37px;
+  font-size: 2.5rem;
   font-weight: 500;
   padding-bottom: 0px;
   padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 10px;
+  color: rgb(148, 143, 115);
 }
 
 .button {
@@ -20,7 +23,7 @@ section {
   color: white;
 }
 
-.section-title, .about-section-title, .product-title, 
+.product-title, 
 .profile .name, blockquote::before, blockquote::after, 
 #contact-title, #company-title, .link {
   color: rgb(55, 87, 87);
@@ -29,7 +32,7 @@ section {
 #home-text, #shop-link,
 .about-section-text,
 .option-picker p, #products select, #products select option, .product-author, 
-.customer-info p {
+.customer-info p, blockquote{
   color: rgba(55, 87, 87, 0.555);
 }
 
@@ -55,7 +58,7 @@ section {
 }
 
 #page-header, #menu-div, #menu-items-div, #search-div, 
-#tags, .tag-div, 
+.tag-div, 
 .about-section,
 #category-div, #sorting-view-div, #sorting-div, #view-div,  .button, 
 .rating,
@@ -80,4 +83,10 @@ section {
 #footer-contact p, .footer-social-link,
 .button {
   cursor: pointer;
+}
+
+@media screen and (max-width: 440px) {
+  .section-title {
+    font-size: 1.9rem;
+  }
 }

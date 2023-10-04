@@ -20,6 +20,7 @@
 .about-section-image {
   height: 170px;
   width: 170px;
+  opacity: 95%;
 }
 
 #about1 {
@@ -31,8 +32,9 @@
 }
 
 .about-section-title {
-  font-size: 27px;
+  font-size: 1.5rem;
   font-weight: 500;
+  color: rgb(97, 134, 134);
 }
 
 .about-section-text {
@@ -43,10 +45,16 @@
 @media screen and (max-width: 640px) {
   .about-section {
     flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .about-section-image {
     margin: auto;
     margin-bottom: 15px;
+  }
+  .about-section-text {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 

@@ -12,22 +12,20 @@
 }
 
 #tags {
-  width: max-content;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  width: fit-content;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .tag-div {
-  width: 190px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 5px;
-  margin-left: 13px;
-  margin-right: 13px;
-  border: 3px;
-  border-color: rgba(174, 168, 131, 0.516);
-  border-radius: 3px;
 }
 
 .tag-div img {
@@ -81,18 +79,18 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+
+@media screen and (max-width: 583px) {
   #tags {
-    flex-direction: column;
-    margin-bottom: 15px;
+    column-gap: 4px;
   }
-  .tag-div {
-    margin-bottom: 12px;
+  .tag-div p {
+    width: 70px;
+    font-size: 14px;
+  }
+  .tag-div img {
+    margin-top: 16px;
+    height: 22px;
   }
 }
 
-@media screen and (min-width: 640px) {
-  #tags {
-    margin-bottom: 12px;
-  }
-}
