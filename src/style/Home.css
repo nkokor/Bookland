@@ -83,14 +83,8 @@
 @media screen and (max-width: 583px) {
   #tags {
     column-gap: 4px;
-  }
-  .tag-div p {
-    width: 70px;
-    font-size: 14px;
-  }
-  .tag-div img {
-    margin-top: 16px;
-    height: 22px;
+    display: flex;
+    flex-direction: column;
   }
 }
 
