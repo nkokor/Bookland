@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+<p align="center">
+  <img width='170px' height='170px' src='public/images/tab-icon.png' alt='icon' style='margin: auto;'>
+</p>
+<h1 align='center'>Bookland</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About
+This repository contains the frontend of a website I'm currently working on. It was made in JavaScript using React and is fully responsive. Backend coming soon...
 
-## Available Scripts
+# 📚Bookland
+Bookland is a fictional bookstore that offers all different kinds of books, as well as meet & greet's with your favourite authors, book signings, group readings and much more.
+The website provides:
 
-In the project directory, you can run:
+- an insight to all of the latest discounts and events through an automatic news slider on the home page
+- an online shop
+- customer ratings review
+- contact information with the option of contacting the company directly through a simple contact form
+- the option of creating an account which allows users to add available items to wishlist as well as leave their ratings on the company
 
-### `npm start`
+# App gallery
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🖥Desktop screen
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+| | |
+|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="home" src="screenshots/home.jpg">|<img width="1604" alt="about" src="screenshots/about.jpg">|
+|<img width="1604" alt="shop" src="screenshots/shop.jpg">|<img width="1604" alt="review" src="screenshots/review.jpg">|
+|<img width="1604" alt="contact" src="screenshots/contact.jpg">|<img width="1604" alt="footer" src="screenshots/footer.jpg">|
+|<img width="1604" alt="side menu" src="screenshots/side-menu.jpg">| 
 
-### `npm test`
+## 📱Mobile screen
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" alt="home mobile" src="screenshots/home-mobile.jpg">|<img width="1604" alt="about mobile" src="screenshots/about-mobile.jpg">|<img width="1604" alt="shop mobile" src="screenshots/shop-mobile.jpg">|
+|<img width="1604" alt="review mobile" src="screenshots/review-mobile.jpg">|<img width="1604" alt="contact mobile" src="screenshots/contact-mobile.jpg">|<img width="1604" alt="footer mobile" src="screenshots/footer-mobile.jpg">|
+|<img width="1604" alt="side menu mobile" src="screenshots/side-menu-mobile.jpg">|  
 
-### `npm run build`
+# 🔧Instalation
+1. Download the project or clone the repository by running the following command:
+```
+gh repo clone nkokor/bookland
+```
+1. Install the dependencies by running:
+```
+npm install
+```
+3. Start the application using:
+```
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# ⚙Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Node, React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
