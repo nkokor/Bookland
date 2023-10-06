@@ -1,6 +1,12 @@
 import '../style/Menu.css';
 
+import WishlistModal from './modals/WishlistModal';
+
+import { useState } from 'react';
+
 function Menu() {
+
+  const [openWishlist, setOpenWishlist] = useState(false)
 
   function handleSideMenuVisibility() {
     let sideMenu = document.getElementById("side-menu")
@@ -21,7 +27,7 @@ function Menu() {
         </div>
 
         <div id='user-div'>
-          <img className='icon-menu-item' src='images/icons/icons8-heart-50.png'></img>
+          <img className='icon-menu-item' src='images/icons/icons8-heart-50.png' onClick={() => { setOpenWishlist(true) }}></img>
           <img className='icon-menu-item' src='images/icons/icons8-cart-30.png'></img>
           <img className='icon-menu-item' src='images/icons/icons8-account-48.png'></img>
         </div>
@@ -48,6 +54,8 @@ function Menu() {
         </div>
 
       </div>
+      
+      { openWishlist && <WishlistModal setOpenWishlistModal={setOpenWishlist} /> }
 
     </div>
   );
