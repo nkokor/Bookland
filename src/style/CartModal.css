@@ -39,11 +39,6 @@
   border: none;
 }
 
-.checkout-form-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .checkout-form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -73,8 +68,4 @@
 #total {
   padding-left: 6px;
   color: rgb(235, 27, 27);
-}
-
-@media screen and (max-width: 525px) {
- 
 }
