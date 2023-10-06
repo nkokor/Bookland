@@ -19,7 +19,7 @@ const cart = [
     author: 'Helen Hoang',
     price: '19.99',
     rating: 3.4
-  }
-]
+  } 
+] 
 
 module.exports = cart

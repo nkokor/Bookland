@@ -1,7 +1,7 @@
-import React, { Component } from "react";
 import '../style/slick.css';
 import '../style/slick-theme.css';
 import '../style/Review.css'
+
 
 function Rating(props) {
   let rating = parseInt(props.rating)
@@ -13,6 +13,7 @@ function Rating(props) {
     stars[i] ='images/icons/icons8-star-gold.png'
   }
   console.log(stars)
+
   return (
     <div className={props.divClass}>
     {

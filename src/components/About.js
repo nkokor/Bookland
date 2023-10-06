@@ -1,14 +1,11 @@
 import '../style/About.css';
 
+
 function About() {
   return (
     <section id='about-page'>
-      <p className='section-title'>
-        ABOUT US
-      </p>
-
+      <p className='section-title'>ABOUT US</p>
       <div className="about-cards">
-
         <div className="about-section">
           <img className="about-section-image" id='about1' src='images/about1.jpg'></img>
           <div className="about-section-info">
@@ -16,7 +13,6 @@ function About() {
             <p className="about-section-text">Founded in 2012, Bookland has been serving avid readers and book enthusiasts for over 10 years. Our journey began with a simple dream – to create a haven for book lovers, a place where the magic of literature knows no bounds. Over the years, we've grown, but our commitment to fostering a love for books remains unwavering.</p>
           </div>
         </div>
-
         <div className="about-section">
           <div className="about-section-info">
             <p className="about-section-title">OUR MISSION</p>
@@ -24,9 +20,7 @@ function About() {
           </div>
           <img className="about-section-image" id='about2' src='images/about2.jpg'></img>
         </div>
-
       </div>
-
     </section>
   );
 }

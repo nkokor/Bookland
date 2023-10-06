@@ -109,6 +109,9 @@ hr {
 }
 
 @media screen and (max-width: 500px) {
+  .modal-container {
+    padding-bottom: 70px;
+  }
   .wishlist-container {
     width: 100%;
     margin-top: 2rem;
@@ -123,5 +126,8 @@ hr {
   }
   .item-price {
     bottom: -40px;
+  }
+  .buttons-container .cart {
+    padding-right: 10px;
   }
 }

@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import Rating from "./Rating";
 import '../style/slick.css';
 import '../style/slick-theme.css';
 import '../style/Review.css'
 import reviews from "../data/reviews";
-import Rating from "./Rating";
+
 
 export default class SimpleSlider extends Component {
   render() {
@@ -36,10 +37,10 @@ export default class SimpleSlider extends Component {
               </div>
             ))
           }
-
         </Slider>
       </div>
     )
+
     return renderSlider
   }
 }

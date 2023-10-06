@@ -4,6 +4,7 @@ import '../style/slick.css';
 import '../style/slick-theme.css';
 import news from "../data/news";
 
+
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
@@ -24,10 +25,10 @@ export default class SimpleSlider extends Component {
               <img className="banner" src={slide.image}></img>
             ))
           }
-
         </Slider>
       </div>
     )
+
     return renderSlider
   }
 }

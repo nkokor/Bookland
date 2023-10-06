@@ -10,8 +10,8 @@ function SideMenu() {
           <a className='side-menu-item' href='#products-page'>Products</a>
           <a className='side-menu-item' href="#review-page">Review</a>
           <a className='side-menu-item' href='#contact-page'>Contact</a>
-        </div>
       </div>
+    </div>
   );
 }
 

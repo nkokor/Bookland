@@ -82,6 +82,12 @@ section {
   flex-direction: column;
 }
 
+.checkout-form-row,
+.rating-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .buttons-container img,
 .menu-item, .side-menu-item,
 .icon-menu-item, #hamburger-menu-icon,
@@ -92,7 +98,7 @@ section {
   cursor: pointer;
 }
 
-.modal-bg, .info-div, .google-button, .google-button p {
+.modal-bg, .info-div, .google-button, .google-button p, #empty-cart-div {
   align-items: center;
   justify-content: center;
 }

@@ -6,8 +6,6 @@
 }
 
 .sender-info-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   column-gap: 10px;
 }
 
@@ -114,6 +112,9 @@ input:focus, textarea:focus {
 }
 
 .sender-info-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }

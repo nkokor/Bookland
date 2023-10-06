@@ -14,11 +14,11 @@
   text-decoration: underline;
 }
 
-#cart-content {
+.cart-items-container, #cart-content, #cart-and-button {
   height: 100%;
 }
 
-.cart-items-container {
+#cart-scrollable {
   height: 70%;
   overflow-y: scroll;
 }
@@ -40,8 +40,6 @@
 }
 
 .checkout-form-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   column-gap: 8px;
 }
 
@@ -68,4 +66,15 @@
 #total {
   padding-left: 6px;
   color: rgb(235, 27, 27);
+}
+
+#empty-cart-div {
+  padding: 50px;
+  height: 60%;
+  display: flex;
+}
+
+#empty-cart-div p {
+  opacity: 70%;
+  font-size: 13px;
 }
