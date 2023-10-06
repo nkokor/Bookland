@@ -6,14 +6,14 @@ import wishlist from "../../data/wishlist";
 
 function WishlistModal({setOpenWishlistModal}) {
   return (
-    <div id='modal-bg'>
-      <div id='wishlist-container'>
+    <div className='modal-bg'>
+      <div className='modal-container' id='wishlist-modal'>
         <button className="modal-close"
                 onClick={() => setOpenWishlistModal(false)}
         >
           <img src='images/icons/icons8-close-24.png'></img>
         </button>
-        <div id='title-container'>
+        <div className='title-container'>
           <p>Wishlist</p>
         </div>
         <div id='items-container'>

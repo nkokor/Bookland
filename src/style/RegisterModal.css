@@ -1,0 +1,79 @@
+#register-modal {
+  background-color: rgb(240, 242, 242);
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-container input {
+  width: 300px;
+  margin: 6px;
+  padding: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+}
+
+.login-button {
+  background-color: rgb(55, 87, 87);
+  color: white;
+  padding: 8px;
+  border: none;
+  margin: 6px;
+  margin-top: 30px;
+}
+
+.info-div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-p {
+  color: rgba(50, 50, 50, 0.622);
+  padding: 0px;
+  padding: 5px;
+  margin: 0px;
+  font-size: 15px;
+}
+
+#log-in-link {
+  margin-left: 3px;
+  font-size: 15px;
+  color: rgb(55, 87, 87);
+  cursor: pointer;
+}
+
+#log-in-link:hover {
+  text-decoration: underline;
+}
+
+.google-button {
+  background-color: white;
+  padding: 8px;
+  border: none;
+  height: 40px;
+  margin: 6px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.google-button img {
+  height: 30px;
+}
+
+.google-button p {
+  margin-left: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  opacity: 50%;
+}
+
+

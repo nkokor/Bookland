@@ -1,4 +1,4 @@
-#modal-bg {
+.modal-bg {
   position: fixed;
   z-index: 10000;
   width: 100%;
@@ -9,11 +9,10 @@
   align-items: center;
 }
 
-#wishlist-container {
+.modal-container {
   width: max-content;
   margin: auto;
   height: 90%;
-  background-color: rgb(250, 248, 248);
   padding: 30px;
   padding-top: 30px;
   border-radius: 3px;
@@ -23,9 +22,13 @@
   overflow: hidden;
 }
 
+#wishlist-modal {
+  background-color: rgb(250, 248, 248);
+}
+
 .modal-close {
   border: none;
-  background-color: rgb(250, 248, 248);
+  background-color: transparent;
   width: 100%;
   overflow: hidden;
 }
@@ -34,7 +37,7 @@
   float: right;
 }
 
-#title-container p {
+.title-container p {
   font-size: 1.35rem;
   padding-bottom: 20px;
 }
@@ -104,8 +107,8 @@ hr {
 }
 
 @media screen and (max-width: 500px) {
-  #wishlist-container {
-    width: 90%;
+  .wishlist-container {
+    width: 100%;
     margin-top: 2rem;
     padding-left: 10px;
     padding-right: 10px;
