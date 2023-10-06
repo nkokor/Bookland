@@ -22,7 +22,7 @@
   overflow: hidden;
 }
 
-#wishlist-modal {
+#items-modal {
   background-color: rgb(250, 248, 248);
 }
 
@@ -42,12 +42,12 @@
   padding-bottom: 20px;
 }
 
-#items-container {
+.items-container {
   overflow-y: scroll;
   height: 85%;
 }
 
-.wishlist-item {
+.item {
   padding-left: 10px;
 }
 
@@ -104,6 +104,10 @@ hr {
 
 .buttons-container img:hover {
   opacity: 100%;
+}
+
+.trash {
+  padding-right: 10px;
 }
 
 @media screen and (max-width: 500px) {

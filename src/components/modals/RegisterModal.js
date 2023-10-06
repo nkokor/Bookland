@@ -42,9 +42,7 @@ function RegisterModal({setOpenRegisterModal}) {
                 <div className='info-div'>
                   <p className="info-p">Don't have an account?</p>
                   <a id='log-in-link' 
-                    onClick={ () => { 
-                      setOpenLogin(false)
-                    } }>Register</a>
+                    onClick={ () => { setOpenLogin(false)} }>Register</a>
                 </div> 
 
               </div>

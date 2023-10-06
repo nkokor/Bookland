@@ -54,7 +54,7 @@ function Products() {
             <p className="product-title">{product.title}</p>
             <p className="product-author">{product.author}</p>
             <div className="product-card-footer">
-              <p className="product-price">{product.price}</p>
+              <p className="product-price">{`$${product.price}`}</p>
               <Rating rating={Math.round(product.rating)} starClass='rating-star' divClass='rating-div'></Rating>
             </div>
             </div>

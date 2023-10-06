@@ -1,6 +1,7 @@
 import '../style/Menu.css';
 
 import WishlistModal from './modals/WishlistModal';
+import CartModal from './modals/CartModal';
 import RegisterModal from './modals/RegisterModal';
 
 import { useState } from 'react';
@@ -8,7 +9,8 @@ import { useState } from 'react';
 function Menu() {
 
   const [openWishlist, setOpenWishlist] = useState(false)
-  const [openRegister, setOpenRegister] = useState(true)
+  const [openRegister, setOpenRegister] = useState(false)
+  const [openCart, setOpenCart] = useState(false)
 
   function handleSideMenuVisibility() {
     let sideMenu = document.getElementById("side-menu")
@@ -30,7 +32,7 @@ function Menu() {
 
         <div id='user-div'>
           <img className='icon-menu-item' src='images/icons/icons8-heart-50.png' onClick={() => { setOpenWishlist(true) }}></img>
-          <img className='icon-menu-item' src='images/icons/icons8-cart-30.png'></img>
+          <img className='icon-menu-item' src='images/icons/icons8-cart-30.png' onClick={() => { setOpenCart(true) }}></img>
           <img className='icon-menu-item' src='images/icons/icons8-account-48.png' onClick={() => { setOpenRegister(true) }}></img>
         </div>
       
@@ -57,8 +59,9 @@ function Menu() {
 
       </div>
       
-      { openWishlist && <WishlistModal setOpenWishlistModal={setOpenWishlist} /> }
-      { openRegister && <RegisterModal setOpenRegisterModal={setOpenRegister}/>}
+      { openWishlist && <WishlistModal setOpenWishlistModal={setOpenWishlist}/> }
+      { openRegister && <RegisterModal setOpenRegisterModal={setOpenRegister}/> }
+      { openCart && <CartModal setOpenCartModal={setOpenCart}/> }
 
     </div>
   );
