@@ -6,3 +6,24 @@ export function openEmail(email) {
   const mailtoLink = `mailto:${email}`
   window.location.href = mailtoLink
 }
+
+export function calculateCartTotal(cart) {
+  let totalPrice = 0
+  cart.forEach(item => {
+    totalPrice += parseFloat(item.price)
+  })
+  return totalPrice
+}
+
+export function getRatingStars(rating) {
+  console.log(rating)
+  rating = parseInt(rating)
+  let stars = []
+  for(let i = 0; i < 5; i++) {
+    stars.push('images/icons/icons8-star-gold-outline.png')
+  }
+  for(let i = 0; i < rating; i++) {
+    stars[i] ='images/icons/icons8-star-gold.png'
+  }
+  return stars
+}

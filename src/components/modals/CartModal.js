@@ -2,19 +2,12 @@ import '../../style/CartModal.css';
 import '../../style/WishlistModal.css';
 import { useState } from "react";
 import cart from "../../data/cart";
+import { calculateCartTotal } from '../../helpers';
 
 
 function CartModal({setOpenCartModal}) {
 
   const [openCheckout, setOpenCheckout] = useState(false)
-
-  function calculateTotal(cart) {
-    let totalPrice = 0
-    cart.forEach(item => {
-      totalPrice += parseFloat(item.price)
-    })
-    return totalPrice
-  }
 
   return (
     <div className='modal-bg'>
@@ -51,7 +44,7 @@ function CartModal({setOpenCartModal}) {
                 </div>
                 <div id='total-div'>
                   <p>Total:</p>
-                  <p id='total'>{`$${calculateTotal(cart)}`}</p>
+                  <p id='total'>{`$${calculateCartTotal(cart)}`}</p>
                 </div>
                 <div className="checkout-button-div">
                   <button onClick={() => setOpenCartModal(false)}>Finish</button>
@@ -70,42 +63,33 @@ function CartModal({setOpenCartModal}) {
                       {
                         cart.map((item) => (  
                           <div>
-                            <div className="item">
-                              
+                            <div className="item">                             
                               <div className="image-container">
                                 <img src={item.image}></img>
                               </div>
-
                               <div className="item-info-container">
                                 <p className="item-title">{item.title}</p>
                                 <p className="item-author">{item.author}</p>
                                 <p className="item-price">{`$${item.price}`}</p>
                               </div>
-
                               <div className="buttons-container">
                                 <img className='trash' src='images/icons/icons8-trash-30.png'></img>
                               </div>
-
                             </div>
-
                             <hr></hr>
-
                           </div>
-
                         ))
                       }
                     </div>
-
                       <div className="checkout-button-div">
                         <button onClick={() => setOpenCheckout(true)}>Checkout</button>
                       </div>
-
                   </div>
                 </div>
             ) : (
-                <div id='empty-cart-div'>
-                  <p>Your cart is empty.</p>
-                </div>
+              <div id='empty-cart-div'>
+                <p>Your cart is empty.</p>
+              </div>
             )
           }           
           </div>

@@ -1,6 +1,5 @@
 import '../style/About.css';
 
-
 function About() {
   return (
     <section id='about-page'>

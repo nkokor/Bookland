@@ -17,7 +17,7 @@ export default class SimpleSlider extends Component {
       slidesToScroll: 1
     };
 
-    const renderSlider = (
+    return (
       <div className="news-slider">
         <Slider {...settings}>
           {
@@ -28,7 +28,5 @@ export default class SimpleSlider extends Component {
         </Slider>
       </div>
     )
-
-    return renderSlider
   }
 }

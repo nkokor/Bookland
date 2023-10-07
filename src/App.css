@@ -39,7 +39,7 @@ section {
 
 .buttons-container img,
 .menu-item, .side-menu-item, #hamburger-menu-icon,
-#shop-link, #products, .cart-div, .cart-button p, .cart-button img, .heart-icon
+#shop-link, #products, .cart-div, .cart-button p, .cart-button img, .heart-icon,
 #submit-button, 
 .footer-contact-link img, .footer-contact-link p, .footer-social-link {
   -webkit-transition: all 0.4s ease;

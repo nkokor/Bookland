@@ -1,7 +1,6 @@
 import '../style/Footer.css';
 import { openMaps, openEmail } from '../helpers';
 
-
 function Footer() {
   
   return (
