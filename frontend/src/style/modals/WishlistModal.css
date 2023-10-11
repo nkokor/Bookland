@@ -1,0 +1,22 @@
+#wishlist-modal {
+  overflow: hidden;
+}
+
+.wishlist-items-container {
+  overflow-y: scroll;
+  height: 83%;
+}
+
+
+@media screen and (max-width: 500px) {
+  .modal-container {
+    padding-bottom: 70px;
+  }
+  .wishlist-container {
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+

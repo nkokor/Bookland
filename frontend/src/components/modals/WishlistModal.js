@@ -1,18 +1,19 @@
-import '../../style/WishlistModal.css';
+import '../../style/modals/Modal.css';
+import '../../style/modals/WishlistModal.css';
 import wishlist from "../../data/wishlist";
 
 
 function WishlistModal({setOpenWishlistModal}) {
   return (
     <div className='modal-bg'>
-      <div className='modal-container' id='items-modal'>
+      <div className='modal-content-container' id='wishlist-modal'>
         <button className="modal-close" onClick={() => setOpenWishlistModal(false)}>
           <img src='images/icons/icons8-close-24.png'></img>
         </button>
         <div className='title-container'>
           <p>Wishlist</p>
         </div>
-        <div className='items-container'>
+        <div className='wishlist-items-container'>
           {
             wishlist.map((item) => (
               <div> 

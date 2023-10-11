@@ -7,23 +7,6 @@
   display: flex;
 }
 
-.modal-container {
-  width: max-content;
-  margin: auto;
-  height: 90%;
-  padding: 30px;
-  padding-top: 30px;
-  border-radius: 3px;
-  border: 3px;
-  border-style: solid;
-  border-color: rgb(132, 164, 164);
-  overflow: hidden;
-}
-
-#items-modal {
-  background-color: rgb(250, 248, 248);
-}
-
 .modal-close {
   border: none;
   background-color: transparent;
@@ -40,9 +23,20 @@
   padding-bottom: 20px;
 }
 
-.items-container {
-  overflow-y: scroll;
-  height: 85%;
+#cart-modal, #wishlist-modal {
+  height: 90%;
+  background-color: rgb(250, 248, 248);
+}
+
+.modal-content-container {
+  width: max-content;
+  margin: auto;
+  padding: 30px;
+  padding-top: 30px;
+  border-radius: 3px;
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(132, 164, 164);
 }
 
 .item {
@@ -108,16 +102,16 @@ hr {
   padding-right: 10px;
 }
 
+.modal-button {
+  background-color: rgb(55, 87, 87);
+  color: white;
+  padding: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: none;
+}
+
 @media screen and (max-width: 500px) {
-  .modal-container {
-    padding-bottom: 70px;
-  }
-  .wishlist-container {
-    width: 100%;
-    margin-top: 2rem;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
   .image-container img {
     height: 100px;
   }
