@@ -37,6 +37,7 @@ section {
   color: rgba(55, 87, 87, 0.555);
 }
 
+.google-button p,
 .buttons-container img,
 .menu-item, .side-menu-item, #hamburger-menu-icon,
 #shop-link, #products, .cart-div, .cart-button p, .cart-button img, .heart-icon,

@@ -28,6 +28,10 @@
   background-color: rgb(250, 248, 248);
 }
 
+#register-modal, #login-modal, #checkout-modal {
+  background-color: rgb(223, 226, 226);
+}
+
 .modal-content-container {
   width: max-content;
   margin: auto;
@@ -102,13 +106,47 @@ hr {
   padding-right: 10px;
 }
 
-.modal-button {
+.modal-button, .login-button {
   background-color: rgb(55, 87, 87);
   color: white;
   padding: 7px;
   padding-left: 25px;
   padding-right: 25px;
   border: none;
+}
+
+.form-container input {
+  border: none;
+  padding: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.login-button {
+ width: 100%;
+ margin-top: 20px;
+ margin-bottom: 15px;
+}
+
+.info-p, .login-link {
+  opacity: 80%;
+  font-size: 0.9rem;
+}
+
+.info-p {
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.login-link {
+  text-decoration: none;
+  color: rgb(55, 87, 87);
+  cursor: pointer;
+}
+
+.login-link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 500px) {

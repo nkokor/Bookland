@@ -1,6 +1,5 @@
 import React from "react";
 import '../../style/modals/Modal.css';
-import '../../style/modals/RegisterModal.css';
 import '../../style/modals/LoginModal.css';
 import { useState } from "react";
 
@@ -31,7 +30,7 @@ function RegisterModal({setOpenRegisterModal}) {
                   </button>
                   <div className='info-div'>
                     <p className="info-p">Don't have an account?</p>
-                    <a id='log-in-link' 
+                    <a className='login-link' 
                       onClick={ () => { setOpenLogin(false)} }>Register</a>
                   </div> 
                 </div>
@@ -52,14 +51,9 @@ function RegisterModal({setOpenRegisterModal}) {
                 <input type="text" placeholder="Username"></input>
                 <input type="text" placeholder="Password"></input>
                 <button className='login-button'>Sign up</button>
-                <p className="info-p">Or</p>
-                <button className="google-button">
-                  <img src='images/icons/icons8-google-96.png'></img>
-                  <p>Sign in with Google</p>
-                </button>
                 <div className='info-div'>
                   <p className="info-p">Already have an account?</p>
-                  <a id='log-in-link' 
+                  <a className='login-link' 
                     onClick={ () => { 
                       setOpenLogin(true)
                     } }>Log in</a>

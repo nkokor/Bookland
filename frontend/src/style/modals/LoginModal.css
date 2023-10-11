@@ -1,0 +1,22 @@
+.google-button {
+  height: 40px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.google-button img {
+  height: 33px;
+}
+
+.google-button p {
+  opacity: 85%;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 10px;
+}
+
+.google-button:hover p {
+  opacity: 100%;
+}
