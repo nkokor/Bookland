@@ -1,11 +1,10 @@
-import React from "react";
 import '../../style/modals/Modal.css';
 import '../../style/modals/LoginModal.css';
 import LoginForm from "./LoginForm";
 import RegisterForm from "./RegisterForm";
 import { useState } from "react";
 
-function RegisterModal({setOpenRegisterModal}) {
+export default function RegisterModal({setOpenRegisterModal}) {
 
   const [openLogin, setOpenLogin] = useState(false)
 
@@ -30,5 +29,3 @@ function RegisterModal({setOpenRegisterModal}) {
     </div>
   )
 }
-
-export default RegisterModal

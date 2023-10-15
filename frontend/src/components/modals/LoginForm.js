@@ -1,4 +1,4 @@
-function LoginForm (setViewLogin) {
+export default function LoginForm (setViewLogin) {
   return (
     <div id='login'>
       <div className='title-container'>
@@ -22,5 +22,3 @@ function LoginForm (setViewLogin) {
     </div>
   )
 }
-
-export default LoginForm

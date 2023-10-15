@@ -1,4 +1,4 @@
-function CheckoutForm({setViewCheckout, setViewCartModal, total}) {
+export default function CheckoutForm({setViewCheckout, setViewCartModal, total}) {
   return (
     <div id='checkout'>
       <div id='checkout-header'>
@@ -37,5 +37,3 @@ function CheckoutForm({setViewCheckout, setViewCartModal, total}) {
     </div>
   )
 }
-
-export default CheckoutForm

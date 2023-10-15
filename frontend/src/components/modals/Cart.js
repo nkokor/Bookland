@@ -1,6 +1,6 @@
 import CartItem from "./CartItem"
 
-function Cart(cart, setViewCheckout) {
+export default function Cart(cart, setViewCheckout) {
   return (
     <div id='cart'>
     <div className='title-container'>
@@ -30,5 +30,3 @@ function Cart(cart, setViewCheckout) {
   </div>
   )
 }
-
-export default Cart

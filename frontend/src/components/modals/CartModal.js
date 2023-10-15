@@ -7,8 +7,7 @@ import { calculateCartTotal } from '../../helpers';
 import CheckoutForm from './CheckoutForm';
 import Cart from './Cart';
 
-
-function CartModal({setOpenCartModal}) {
+export default function CartModal({setOpenCartModal}) {
 
   const [openCheckout, setOpenCheckout] = useState(false)
 
@@ -33,5 +32,3 @@ function CartModal({setOpenCartModal}) {
       </div>
   )
 }
-
-export default CartModal

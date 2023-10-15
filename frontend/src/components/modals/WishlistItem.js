@@ -1,7 +1,7 @@
-export default function CartItem(item) {
+export default function WishlistItem(item) {
   return (
-    <div className='list-item-container'>
-      <div className="item">                             
+    <div> 
+      <div className="item">
         <div className="image-container">
           <img src={item.image}></img>
         </div>
@@ -11,10 +11,11 @@ export default function CartItem(item) {
           <p className="item-price">{`$${item.price}`}</p>
         </div>
         <div className="buttons-container">
+          <img className='cart' src='images/icons/icons8-cart-30.png'></img>
           <img className='trash' src='images/icons/icons8-trash-30.png'></img>
         </div>
       </div>
-      <hr></hr>
+      <hr></hr> 
     </div>
   )
 }
