@@ -32,7 +32,7 @@
   background-color: rgb(223, 226, 226);
 }
 
-.modal-content-container {
+.modal-content-container, #register-modal, #login-modal {
   width: max-content;
   margin: auto;
   padding: 30px;
@@ -150,6 +150,10 @@ hr {
 }
 
 @media screen and (max-width: 500px) {
+  .modal-content-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .image-container img {
     height: 100px;
   }
@@ -161,5 +165,8 @@ hr {
   }
   .buttons-container .cart {
     padding-right: 10px;
+  }
+  .modal-button {
+    margin-right: 10px;
   }
 }
