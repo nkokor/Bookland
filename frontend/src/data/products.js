@@ -51,7 +51,7 @@ const products = [
   {
     image: 'images/product-images/check-and-mate.jpg',
     title: 'Check & Mate',
-    author: 'Ali Hazelwoon',
+    author: 'Ali Hazelwood',
     price: '19.99',
     rating: 2.4
   },
