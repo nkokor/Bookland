@@ -38,7 +38,7 @@ The website provides:
 # 🔧Instalation
 1. Download the project or clone the repository by running the following command:
 ```
-gh repo clone nkokor/bookland
+gh repo clone nkokor/Bookland
 ```
 1. Install the dependencies by running:
 ```
