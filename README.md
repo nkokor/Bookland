@@ -1,5 +1,5 @@
 <p align="center">
-  <img width='170px' height='170px' src='frontend/public/images/tab-icon.png' alt='icon' style='margin: auto;'>
+  <img width='170px' height='170px' src='frontend/public/images/bookland-tab-icon.png' alt='icon' style='margin: auto;'>
 </p>
 <h1 align='center'>Bookland</h1>
 
