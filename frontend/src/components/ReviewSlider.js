@@ -4,11 +4,10 @@ import Rating from "./Rating";
 import '../style/slick.css';
 import '../style/slick-theme.css';
 import '../style/Review.css'
-import reviews from "../data/reviews";
 
-
-export default class SimpleSlider extends Component {
+export default class ReviewsSlider extends Component {
   render() {
+    const { data } = this.props
     const settings = {
       dots: true,
       infinite: true,
@@ -21,7 +20,7 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           {
-            reviews.map((review) => (
+            data.map((review) => (
               <div className="review-card swiper-slide text-center">
                 <div className="profile">
                   <img className="user" src={review.userImage}></img>

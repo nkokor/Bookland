@@ -1,6 +1,5 @@
 import ProductFilters from "./ProductFilters";
 import '../style/Products.css';
-import products from "../data/products";
 import ProductCard from "./ProductCard";
 import React, { useState, useEffect } from 'react';
 
