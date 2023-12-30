@@ -1,4 +1,4 @@
-export default function CartItem(item) {
+export default function CartItem({item}) {
   return (
     <div className='list-item-container'>
       <div className="item">                             

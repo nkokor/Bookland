@@ -21,5 +21,4 @@ const cart = [
     rating: 3.4
   } 
 ] 
-
-module.exports = cart
+ module.exports = cart

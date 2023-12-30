@@ -10,6 +10,7 @@ import Cart from './Cart';
 export default function CartModal({setOpenCartModal}) {
 
   const [openCheckout, setOpenCheckout] = useState(false)
+  const [cartItems, setCart] = useState(cart)
 
   return (
     <div className='modal-bg'>
@@ -25,7 +26,7 @@ export default function CartModal({setOpenCartModal}) {
             <button className="modal-close" onClick={() => setOpenCartModal(false)}>
               <img src='images/icons/icons8-close-24.png'></img>
             </button>
-            <Cart cart={cart} setViewCheckout={setOpenCheckout}/>
+            <Cart cart={cartItems} setViewCheckout={setOpenCheckout}/>
           </div>
         ) 
       }        

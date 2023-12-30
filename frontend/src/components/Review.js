@@ -10,12 +10,12 @@ function Reviews() {
       try {
         const response = await fetch('http://localhost:8000/BooklandAPI/review');
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error('response not ok');
         }
         const data = await response.json();
         setReviews(data);
       } catch (error) {
-        console.error('Error fetching products:', error);
+        console.error('error fetching products:', error);
       }
     };
 

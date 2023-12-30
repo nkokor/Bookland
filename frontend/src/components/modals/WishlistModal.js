@@ -1,6 +1,6 @@
 import '../../style/modals/Modal.css';
 import '../../style/modals/WishlistModal.css';
-import wishlist from "../../data/wishlist";
+import wishlist from "../../data/wishlist.js";
 import WishlistItem from './WishlistItem';
 
 export default function WishlistModal({setOpenWishlistModal}) {

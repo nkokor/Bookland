@@ -38,5 +38,4 @@ const wishlist = [
     rating: 3.7
   }
 ]
-
-module.exports = wishlist
+ module.exports = wishlist
