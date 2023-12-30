@@ -10,4 +10,3 @@ class ProductView(generics.ListAPIView):
 class CustomerReviewView(generics.ListAPIView):
   queryset = CustomerReview.objects.all()
   serializer_class = CustomerReviewSerializer
-

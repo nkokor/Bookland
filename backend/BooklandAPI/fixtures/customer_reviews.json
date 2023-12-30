@@ -1,0 +1,57 @@
+[
+  {
+    "model": "BooklandAPI.customerReview",
+    "pk": 1,
+    "fields": {
+      "user_name": "images/user-images/mary.jpg",
+      "user_image": "Mary Goldberg",
+      "user_status": "Happy customer",
+      "comment": "The staff is so kind and they are always here to help. Books I ordered online were all damage-free. However, the wait was 7 days long which is a bit too long for me.",
+      "rating": 4
+    }
+  },
+  {
+    "model": "BooklandAPI.customerReview",
+    "pk": 2,
+    "fields": {
+      "user_name": "images/user-images/ian.jpg",
+      "user_image": "Ian Broke",
+      "user_status": "Happy customer",
+      "comment": "I am very pleased with the quality of the books I ordered. All of them were packaged properly so they didn't have any damage. The wait was a tiny bit longer than I would like, but totally worth it in my opinion!",
+      "rating": 4
+    }
+  },
+  {
+    "model": "BooklandAPI.customerReview",
+    "pk": 3,
+    "fields": {
+      "user_name": "images/user-images/anne.jpg",
+      "user_image": "Anne Klein",
+      "user_status": "Happy customer",
+      "comment": "There is honestly not a single bad thing to say about Bookland! I live nearby so I find myself going there probably more than one should. The staff is super nice and always gives amazing recommendations if you are not sure what to get.",
+      "rating": 5
+    }
+  },
+  {
+    "model": "BooklandAPI.customerReview",
+    "pk": 3,
+    "fields": {
+      "user_name": "images/user-images/martin.jpg",
+      "user_image": "Martin Newban",
+      "user_status": "Happy customer",
+      "comment": "Great service, great books, would prefer it if there were more store since I live so far away so I usually have to order online.",
+      "rating": 4
+    }
+  },
+  {
+    "model": "BooklandAPI.customerReview",
+    "pk": 3,
+    "fields": {
+      "user_name": "images/user-images/nick.jpg",
+      "user_image": "Nick Jones",
+      "user_status": "Happy customer",
+      "comment": "The books are fine, but the staff could be nicer.",
+      "rating": 3
+    }
+  }
+]
