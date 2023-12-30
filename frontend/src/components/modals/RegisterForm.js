@@ -1,4 +1,4 @@
-export default function RegisterForm(setViewLogin) {
+export default function RegisterForm({setViewLogin}) {
   return (
     <div id='register'>
       <div className='title-container'>

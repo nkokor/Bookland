@@ -1,4 +1,4 @@
-export default function LoginForm (setViewLogin) {
+export default function LoginForm ({setViewLogin}) {
   return (
     <div id='login'>
       <div className='title-container'>
