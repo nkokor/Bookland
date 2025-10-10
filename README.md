@@ -3,11 +3,7 @@
 </p>
 <h1 align='center'>Bookland</h1>
 
-# About
-This repository contains the frontend of a website I'm currently working on. It was made in JavaScript using React and is fully responsive. Backend coming soon...
-
-# 📚Bookland
-Bookland is a fictional bookstore that offers all different kinds of books, as well as meet & greet's with your favourite authors, book signings, group readings and much more.
+Bookland is a fictional bookstore that offers all different kinds of books, meet & greet's with your favourite authors, book signings and much more.
 The website provides:
 
 - an insight to all of the latest discounts and events through an automatic news slider on the home page
